@@ -57,7 +57,10 @@ small increment, cheaply, then stop. Work entirely on a fixed branch called clau
    Do NOT read LEXICON.md — it may be huge.
 3. Let N = the Day number in STATE.md, plus 1.
 4. Find today's concept: run  grep -n -m1 '^- \[ \]' CONCEPTS.md . That line is the concept.
-   If none is found, append one fitting "- [ ] concept" line to CONCEPTS.md and use that.
+   If none is found, the curated queue is done: invent ONE new Sietro underworld concept that
+   fills a real gap. Before using it, run  grep -i '<concept>' CONCEPTS.md  and confirm no
+   similar line already exists (checked or unchecked) — so you never coin a second word for an
+   idea already in the lexicon. Then append it as a "- [ ] concept" line and use that.
 5. Coin ONE new cant term for that concept, strictly obeying CANT_STYLE.md. It MUST extend one
    of the image families in CORE_IMAGERY.md — never invent an unrelated picture.
 6. Check it's free: run  grep -i '^- \*\*<term>\*\*' LEXICON.md . If it matches, tweak until unique.
