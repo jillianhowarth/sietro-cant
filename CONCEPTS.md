@@ -8,7 +8,7 @@ smuggler, getaway, the Collective) are excluded — those are roots, not queue i
 Format each line EXACTLY as "- [ ] concept" so a single grep can find the next one.
 
 ## Roles of the trade
-- [ ] a lookout
+- [x] a lookout
 - [ ] a pickpocket
 - [ ] a cutpurse
 - [ ] a burglar
