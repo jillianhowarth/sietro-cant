@@ -22,6 +22,11 @@ those who hold the key, it's business.
    at the foot of the scaffold.
 5. **Grounded.** Prefer Sietro specifics (the Flats, the sluices, the Fratelli piazzas, the
    north wind, the Withered Bloom) over generic thief-slang.
+6. **English first, Italian as seasoning.** The players speak English, so terms are mostly
+   plain English. Reach for an Italian word only when it genuinely fits or gives a coined term
+   some flavor (*acqua alta* for the rising Watch, *la bocca* for a denunciation drop, *corvo*
+   for a crow/informant). Keep any Italian easy for an English speaker to read and say — a light
+   accent, never a whole second language. Most days will have no Italian at all, and that's fine.
 
 ## What a lexicon entry looks like
 Each day's entry records the **term**, its **hidden meaning**, the **image it extends**, and
@@ -32,6 +37,7 @@ one line of it **used in context**. Examples of the style (do NOT copy these —
 - **a quiet face** — a forged identity that won't draw questions — *extends: mask/identity* — "She landed in the Ivy on a quiet face."
 - **calling the crows** — arranging for a body to disappear — *extends: crow/death* — "That debt got settled by calling the crows."
 - **the north wind's buying** — the Collective is quietly taking over an operation — *extends: north wind/Collective* — "Renoldi's old fence? The north wind's buying."
+- **acqua alta** — the Watch is flooding the streets, out in real force — *extends: tide/law* — "No moving cargo tonight — it's acqua alta from the docks to the Ivy."
 
 ## Growth
 Every 10th day, add one entry to CONVENTIONS.md — a countersign, a greeting, a rule of use, or

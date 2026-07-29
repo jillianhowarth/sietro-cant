@@ -7,7 +7,8 @@ sounding like one city's secret. (These are the cant's "roots.") Format: image �
 underworld sense.
 
 ## Water & the law
-- **tide / high water** — the City Watch, or danger sweeping in ("the tide's up" = Watch about)
+- **tide / high water** — the City Watch, or danger sweeping in ("the tide's up" = Watch about;
+  the old Sietran name for a full Watch surge is *acqua alta*)
 - **the sluices** — the nobles or the law deliberately ruining someone (the Ivy floods the Puddles at will)
 - **the Puddles** — where bodies and nobodies are dumped; a bad end
 - **getting wet** — getting caught, or getting drowned
@@ -34,7 +35,8 @@ underworld sense.
 - **the vine** — a chain of patronage; noble intrigue
 
 ## Crows & the gallows (death & informing)
-- **a crow / raven** — an informant, or an undertaker who makes bodies vanish (House of Vornoth)
+- **a crow / raven (a *corvo*)** — an informant, or an undertaker who makes bodies vanish (House of Vornoth)
+- **the lion's mouth (*la bocca*)** — a drop where a written denunciation is left for the authorities
 - **the wood / the platform** — the gallows; the price of snitching
 - **snuffing a candle** — a killing
 
