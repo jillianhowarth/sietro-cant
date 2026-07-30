@@ -1,0 +1,984 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>The Cant of Sietro</title>
+<meta name="description" content="One word of Sietro's thieves' cant, every day.">
+<meta name="theme-color" content="#0b1012">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="The Cant">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<style>
+  :root {
+    --h: 42;
+    --s: 52%;
+    --ink: #0b1012;
+    --ink-2: #0e1618;
+    --paper: #e6dcc9;
+    --paper-dim: #b9ad97;
+    --paper-faint: #857b68;
+    --accent: hsl(var(--h) var(--s) 60%);
+    --accent-deep: hsl(var(--h) var(--s) 42%);
+    --wine: #8a3341;
+    --wine-deep: #5c1f2b;
+    --hairline: rgba(230, 220, 200, 0.16);
+    --frame: hsla(var(--h), var(--s), 58%, 0.38);
+    --serif: "Iowan Old Style", "Palatino", "Book Antiqua", "Hoefler Text", Georgia, serif;
+    --flicker: 9s;
+    --tide-h: 72px;
+    --tide-alpha: 0.5;
+    --tide-speed: 26s;
+    --fog-alpha: 0.06;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+
+  body {
+    font-family: var(--serif);
+    color: var(--paper);
+    background: linear-gradient(180deg, var(--ink) 0%, var(--ink) 55%, var(--ink-2) 100%);
+    min-height: 100svh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-touch-callout: none;
+  }
+
+  /* grain */
+  body::after {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 40;
+    pointer-events: none;
+    opacity: 0.5;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='240' height='240'%3E%3Cfilter id='g'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='240' height='240' filter='url(%23g)' opacity='0.35'/%3E%3C/svg%3E");
+  }
+  /* damask */
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.028;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='72' height='72' viewBox='0 0 72 72'%3E%3Cg fill='none' stroke='%23c9a45a' stroke-width='1.1'%3E%3Ccircle cx='36' cy='26' r='8'/%3E%3Ccircle cx='26' cy='36' r='8'/%3E%3Ccircle cx='46' cy='36' r='8'/%3E%3Ccircle cx='36' cy='46' r='8'/%3E%3C/g%3E%3C/svg%3E");
+    background-size: 72px 72px;
+  }
+
+  /* cinematic vignette */
+  .vignette {
+    position: fixed;
+    inset: 0;
+    z-index: 35;
+    pointer-events: none;
+    background: radial-gradient(120% 100% at 50% 38%, transparent 52%, rgba(0, 0, 0, 0.55) 100%);
+  }
+
+  .fog {
+    position: fixed;
+    inset: -20% -40%;
+    z-index: 1;
+    pointer-events: none;
+    opacity: var(--fog-alpha);
+    background:
+      radial-gradient(42% 30% at 30% 32%, hsl(var(--h) calc(var(--s) * 0.6) 72%) 0%, transparent 70%),
+      radial-gradient(36% 26% at 74% 60%, hsl(var(--h) calc(var(--s) * 0.5) 66%) 0%, transparent 70%);
+    animation: fog-drift 90s ease-in-out infinite alternate;
+  }
+  @keyframes fog-drift {
+    from { transform: translateX(-4%) translateY(0); }
+    to   { transform: translateX(4%)  translateY(-2%); }
+  }
+
+  .lamp {
+    position: fixed;
+    left: 50%;
+    top: 34%;
+    width: 130vmin;
+    height: 130vmin;
+    transform: translate(-50%, -50%);
+    z-index: 0;
+    pointer-events: none;
+    background: radial-gradient(closest-side, hsla(var(--h), var(--s), 55%, 0.13) 0%, hsla(var(--h), var(--s), 50%, 0.05) 45%, transparent 72%);
+    animation: lamp-breathe var(--flicker) ease-in-out infinite;
+  }
+  @keyframes lamp-breathe {
+    0%, 100% { opacity: 0.85; }
+    38%      { opacity: 1; }
+    52%      { opacity: 0.78; }
+    61%      { opacity: 0.96; }
+  }
+
+  .charter-frame {
+    position: fixed;
+    z-index: 30;
+    pointer-events: none;
+    top: calc(env(safe-area-inset-top, 0px) + 8px);
+    right: 8px;
+    bottom: calc(env(safe-area-inset-bottom, 0px) + 8px);
+    left: 8px;
+    border: 1px solid var(--frame);
+  }
+  .charter-frame::after {
+    content: "";
+    position: absolute;
+    inset: 3px;
+    border: 1px solid hsla(var(--h), var(--s), 58%, 0.18);
+  }
+  .corner {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 1.3;
+    opacity: 0.8;
+  }
+  .corner .gem { fill: var(--wine); stroke: none; opacity: 0.9; }
+  .corner-tl { top: -1px; left: -1px; }
+  .corner-tr { top: -1px; right: -1px; transform: scaleX(-1); }
+  .corner-bl { bottom: -1px; left: -1px; transform: scaleY(-1); }
+  .corner-br { bottom: -1px; right: -1px; transform: scale(-1, -1); }
+
+  .page {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    max-width: 34rem;
+    margin: 0 auto;
+    padding: calc(env(safe-area-inset-top, 0px) + 2rem) 1.8rem calc(env(safe-area-inset-bottom, 0px) + 1rem);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+  }
+
+  header { text-align: center; }
+  .arch-wrap { position: relative; width: 176px; margin: 0 auto 0.9rem; }
+  .arch { display: block; width: 176px; height: 128px; }
+  .arch .stone { fill: none; stroke: var(--accent); stroke-width: 1.6; stroke-linecap: round; opacity: 0.9; }
+  .arch .tracery { fill: none; stroke: var(--accent-deep); stroke-width: 1.2; stroke-linecap: round; opacity: 0.8; }
+  .arch .bird { fill: var(--accent); }
+  .rig { transform-box: view-box; transform-origin: 61px 16px; }
+  .crow-entry { transform-box: fill-box; transform-origin: center; }
+
+  /* dust motes rising through the lantern light */
+  .mote {
+    position: absolute;
+    left: 50%;
+    bottom: 12px;
+    width: 2.5px;
+    height: 2.5px;
+    border-radius: 50%;
+    background: var(--accent);
+    opacity: 0;
+    animation: rise var(--md, 7s) linear var(--mdel, 0s) infinite;
+  }
+  @keyframes rise {
+    0%   { transform: translate(var(--mx, 0px), 0);    opacity: 0; }
+    18%  { opacity: 0.7; }
+    60%  { opacity: 0.35; }
+    100% { transform: translate(var(--mx2, 4px), -74px); opacity: 0; }
+  }
+
+  h1 {
+    font-size: 0.72rem;
+    font-weight: 400;
+    letter-spacing: 0.42em;
+    text-indent: 0.42em;
+    text-transform: uppercase;
+    color: var(--paper-dim);
+  }
+  h1 .star { color: var(--wine); letter-spacing: 0; font-size: 0.6rem; vertical-align: 1px; }
+  .epigraph {
+    margin-top: 0.85rem;
+    font-style: italic;
+    font-size: 0.82rem;
+    line-height: 1.5;
+    color: var(--paper-faint);
+  }
+  .epigraph::before { content: "“"; color: var(--accent-deep); }
+  .epigraph::after  { content: "”"; color: var(--accent-deep); }
+  .rule {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    max-width: 17rem;
+    margin: 1.4rem auto 0;
+  }
+  .rule::before, .rule::after {
+    content: "";
+    flex: 1;
+    border-top: 1px solid var(--hairline);
+  }
+  .rule svg { width: 11px; height: 11px; flex: none; fill: var(--wine); opacity: 0.9; }
+
+  main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.2rem 0 2rem;
+  }
+  .hero { opacity: 1; transform: none; text-align: center; }
+  .hero.turning-out { transition: opacity 0.22s ease, transform 0.22s ease, filter 0.22s ease; opacity: 0; transform: translateX(var(--turn, -18px)); filter: blur(3px); }
+  .hero.turning-in  { transition: opacity 0.34s ease, transform 0.34s ease, filter 0.34s ease; opacity: 1; transform: translateX(0); filter: blur(0); }
+  .hero.turn-prep   { transition: none; opacity: 0; transform: translateX(calc(var(--turn, -18px) * -1)); filter: blur(3px); }
+
+  .term {
+    font-size: clamp(2.5rem, 12.5vw, 4.1rem);
+    font-weight: 400;
+    font-style: italic;
+    line-height: 1.06;
+    letter-spacing: -0.01em;
+    color: var(--paper);
+    text-shadow: 0 0 34px hsla(var(--h), var(--s), 55%, 0.22);
+    overflow-wrap: break-word;
+    animation: term-breathe 8s ease-in-out infinite;
+  }
+  @keyframes term-breathe {
+    0%, 100% { text-shadow: 0 0 34px hsla(var(--h), var(--s), 55%, 0.18); }
+    50%      { text-shadow: 0 0 44px hsla(var(--h), var(--s), 55%, 0.3); }
+  }
+  .term .l { display: inline-block; }
+  .term.reveal .l {
+    animation: ink-in 0.55s ease both;
+    animation-delay: calc(var(--i) * var(--stagger, 35ms));
+  }
+  @keyframes ink-in {
+    from { opacity: 0; filter: blur(7px); transform: translateY(9px); }
+    to   { opacity: 1; filter: blur(0);   transform: none; }
+  }
+
+  .term-flourish {
+    display: block;
+    width: 132px;
+    height: 12px;
+    margin: 0.9rem auto 0;
+    fill: none;
+    stroke: var(--accent-deep);
+    stroke-width: 1.2;
+    stroke-linecap: round;
+    opacity: 0.85;
+  }
+  .term-flourish .gem { fill: var(--wine); stroke: none; }
+  .definition {
+    margin: 1.05rem auto 0;
+    font-size: 1.06rem;
+    line-height: 1.55;
+    color: var(--paper-dim);
+    max-width: 28rem;
+    text-align: center;
+  }
+
+  blockquote.example {
+    margin-top: 2.1rem;
+    padding: 1.15rem 0.5rem 1rem;
+    text-align: center;
+    border-top: 1px solid var(--hairline);
+    border-bottom: 1px solid var(--hairline);
+    position: relative;
+  }
+  blockquote.example::before,
+  blockquote.example::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    width: 7px;
+    height: 7px;
+    background: var(--wine);
+    box-shadow: 0 0 0 4px var(--ink);
+  }
+  blockquote.example::before { top: 0; transform: translate(-50%, -50%) rotate(45deg); }
+  blockquote.example::after  { top: 100%; transform: translate(-50%, -50%) rotate(45deg); }
+  blockquote.example p {
+    font-style: italic;
+    font-size: 1.3rem;
+    line-height: 1.45;
+    color: var(--paper);
+    text-wrap: balance;
+  }
+  blockquote.example cite {
+    display: block;
+    margin-top: 0.6rem;
+    font-style: normal;
+    font-size: 0.68rem;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    color: var(--paper-faint);
+  }
+
+  .extends {
+    display: inline-flex;
+    align-items: baseline;
+    gap: 0.5rem;
+    margin-top: 1.7rem;
+    padding: 0.34rem 0.75rem 0.3rem;
+    font-size: 0.62rem;
+    letter-spacing: 0.24em;
+    text-transform: uppercase;
+    color: var(--accent);
+    border: 1px solid hsla(var(--h), var(--s), 55%, 0.4);
+    border-radius: 2px;
+  }
+  .extends::before, .extends::after {
+    content: "";
+    width: 4px;
+    height: 4px;
+    background: var(--wine);
+    transform: rotate(45deg);
+    align-self: center;
+  }
+  .extends .ext-label { color: var(--paper-faint); }
+
+  .dayline {
+    margin-top: 1.5rem;
+    font-size: 0.74rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--paper-faint);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+  }
+  .seal {
+    width: 38px;
+    height: 38px;
+    flex: none;
+    transform: rotate(-8deg);
+    filter: drop-shadow(0 1px 3px rgba(0,0,0,0.55));
+  }
+  .seal .wax { fill: #63222d; }
+  .seal .wax-dark { fill: #421520; }
+  .seal .impression { fill: none; stroke: #8f4450; stroke-width: 1.4; opacity: 0.8; }
+  .seal .bird { fill: #3a111a; }
+  .dayline .to-today {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid hsla(var(--h), var(--s), 55%, 0.35);
+    padding-bottom: 1px;
+    cursor: pointer;
+  }
+  .stale-note {
+    margin-top: 0.8rem;
+    font-style: italic;
+    font-size: 0.76rem;
+    color: var(--paper-faint);
+    display: none;
+  }
+  .stale-note.show { display: block; }
+
+  .empty {
+    display: none;
+    text-align: center;
+    font-style: italic;
+    color: var(--paper-dim);
+    line-height: 1.7;
+  }
+  .empty a { color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; }
+  .page.is-empty .empty { display: block; }
+  .page.is-empty .hero  { display: none; }
+  .page.is-empty .pager { visibility: hidden; }
+
+  .pager {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.72rem;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--paper-faint);
+    padding: 0 2rem calc(var(--tide-h) * 0.55);
+  }
+  .pager button {
+    all: unset;
+    cursor: pointer;
+    color: var(--paper-faint);
+    padding: 0.6rem 0.2rem;
+    letter-spacing: inherit;
+    text-transform: inherit;
+    font: inherit;
+    transition: color 0.2s ease;
+  }
+  .pager button:not([disabled]):hover { color: var(--accent); }
+  .pager button[disabled] { opacity: 0.25; cursor: default; }
+
+  .tide {
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    height: var(--tide-h);
+    z-index: 5;
+    pointer-events: none;
+    opacity: var(--tide-alpha);
+    overflow: hidden;
+  }
+  .tide svg.waves {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200%;
+    height: 100%;
+  }
+  .tide .wave-a { animation: tide-run var(--tide-speed) linear infinite; }
+  .tide .wave-b { animation: tide-run calc(var(--tide-speed) * 1.7) linear infinite reverse; opacity: 0.6; }
+  @keyframes tide-run {
+    from { transform: translateX(0); }
+    to   { transform: translateX(-50%); }
+  }
+  .palina {
+    position: fixed;
+    bottom: 0;
+    z-index: 4;
+    pointer-events: none;
+    width: 8px;
+    height: calc(var(--tide-h) + 22px);
+    opacity: 0.42;
+    border-radius: 4px 4px 0 0;
+    background: repeating-linear-gradient(
+      165deg,
+      var(--wine) 0px, var(--wine) 7px,
+      hsl(var(--h) calc(var(--s) * 0.7) 45%) 7px, hsl(var(--h) calc(var(--s) * 0.7) 45%) 14px
+    );
+  }
+  .palina::after {
+    content: "";
+    position: absolute;
+    top: -7px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 11px;
+    height: 11px;
+    border-radius: 50%;
+    background: var(--accent-deep);
+  }
+  .palina-l { left: calc(env(safe-area-inset-left, 0px) + 44px); }
+  .palina-r { right: calc(env(safe-area-inset-right, 0px) + 44px); }
+
+  /* ═══════════════ THE ENTRY ═══════════════
+     Base styles above are the settled state. While body.entering,
+     everything animates in from darkness; removing the class (tap
+     to skip, or the timeline finishing) lands on the base state. */
+
+  body.entering .page { animation: kenburns 4.8s ease-out both; }
+  @keyframes kenburns {
+    from { transform: scale(1.045) translateY(8px); }
+    to   { transform: none; }
+  }
+
+  body.entering .charter-frame { animation: fade 1.4s ease 0.25s both; }
+  body.entering .fog           { animation: fog-enter 2.4s ease 0.1s both; }
+  body.entering .lamp          { animation: fade 2.6s ease 1.9s both; }
+  body.entering .tide,
+  body.entering .palina        { animation: fade 2.2s ease 1s both; }
+  @keyframes fade { from { opacity: 0; } }
+  @keyframes fog-enter { from { opacity: 0; } }
+
+  /* arch draws itself */
+  body.entering .arch .stone,
+  body.entering .arch .tracery {
+    stroke-dasharray: 1;
+    stroke-dashoffset: 1;
+    animation: draw var(--dd, 1.1s) ease var(--d, 0.35s) both;
+  }
+  @keyframes draw { to { stroke-dashoffset: 0; } }
+
+  /* lantern sputters alight */
+  body.entering .glow { animation: gaslight 1.15s linear 1.85s both; }
+  @keyframes gaslight {
+    0%   { opacity: 0; }
+    48%  { opacity: 0; }
+    54%  { opacity: 0.85; }
+    60%  { opacity: 0.12; }
+    68%  { opacity: 0.95; }
+    75%  { opacity: 0.3; }
+    86%  { opacity: 1; }
+    100% { opacity: 1; }
+  }
+  body:not(.entering) .glow { animation: glow-flicker 6s ease-in-out infinite; }
+  @keyframes glow-flicker {
+    0%, 100% { opacity: 0.9; }
+    41%      { opacity: 1; }
+    54%      { opacity: 0.72; }
+    63%      { opacity: 0.97; }
+  }
+
+  /* crow lands in the light */
+  body.entering .crow-entry { animation: land 0.7s cubic-bezier(0.25, 0.9, 0.35, 1.2) 2.6s both; }
+  @keyframes land {
+    from { opacity: 0; transform: translateY(-16px); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  /* lantern sways once settled */
+  body:not(.entering) .rig { animation: sway 9s ease-in-out infinite; }
+  @keyframes sway {
+    0%, 100% { transform: rotate(0deg); }
+    25%      { transform: rotate(1.4deg); }
+    75%      { transform: rotate(-1.4deg); }
+  }
+  body.entering .mote { opacity: 0; animation: none; }
+
+  /* words arrive */
+  body.entering h1 { animation: track-in 1s ease 3s both; }
+  @keyframes track-in {
+    from { opacity: 0; letter-spacing: 0.65em; text-indent: 0.65em; }
+    to   { opacity: 1; letter-spacing: 0.42em; text-indent: 0.42em; }
+  }
+  body.entering .epigraph      { animation: fade-up 0.9s ease 3.25s both; }
+  body.entering .rule          { animation: fade 0.9s ease 3.4s both; }
+  body.entering .hero,
+  body.entering .empty         { animation: fade 0.6s ease 3.4s both; }
+  body.entering .term-flourish { animation: fade-up 0.8s ease 3.9s both; }
+  body.entering .definition    { animation: fade-up 0.8s ease 4s both; }
+  body.entering .example       { animation: fade-up 0.8s ease 4.15s both; }
+  body.entering .dayline > span,
+  body.entering .to-today      { animation: fade-up 0.8s ease 4.3s both; }
+  body.entering .stale-note    { animation: fade-up 0.8s ease 4.4s both; }
+  body.entering .extends       { animation: fade-up 0.8s ease 4.5s both; }
+  body.entering .pager         { animation: fade 1s ease 4.6s both; }
+  @keyframes fade-up {
+    from { opacity: 0; transform: translateY(14px); }
+    to   { opacity: 1; transform: none; }
+  }
+
+  /* the seal stamps down */
+  body.entering .seal { animation: stamp 0.55s cubic-bezier(0.3, 1.6, 0.45, 1) 4.35s both; }
+  @keyframes stamp {
+    from { opacity: 0; transform: rotate(-22deg) scale(1.9); }
+    60%  { opacity: 1; transform: rotate(-6deg) scale(0.93); }
+    to   { opacity: 1; transform: rotate(-8deg) scale(1); }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .lamp, .fog, .tide .wave-a, .tide .wave-b, .rig, .glow, .mote, .term { animation: none !important; }
+  }
+</style>
+</head>
+<body class="entering">
+
+<div class="fog" aria-hidden="true"></div>
+<div class="lamp" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+
+<div class="charter-frame" aria-hidden="true">
+  <svg class="corner corner-tl" viewBox="0 0 34 34"><path d="M1 33 L1 1 L33 1"/><path d="M1 14 A 13 13 0 0 0 14 1"/><path class="gem" d="M10.2 6.2 l4 4 -4 4 -4 -4 Z"/></svg>
+  <svg class="corner corner-tr" viewBox="0 0 34 34"><path d="M1 33 L1 1 L33 1"/><path d="M1 14 A 13 13 0 0 0 14 1"/><path class="gem" d="M10.2 6.2 l4 4 -4 4 -4 -4 Z"/></svg>
+  <svg class="corner corner-bl" viewBox="0 0 34 34"><path d="M1 33 L1 1 L33 1"/><path d="M1 14 A 13 13 0 0 0 14 1"/><path class="gem" d="M10.2 6.2 l4 4 -4 4 -4 -4 Z"/></svg>
+  <svg class="corner corner-br" viewBox="0 0 34 34"><path d="M1 33 L1 1 L33 1"/><path d="M1 14 A 13 13 0 0 0 14 1"/><path class="gem" d="M10.2 6.2 l4 4 -4 4 -4 -4 Z"/></svg>
+</div>
+
+<div class="page" id="page">
+  <header>
+    <div class="arch-wrap">
+      <svg class="arch" viewBox="0 0 126 92" aria-hidden="true">
+        <defs>
+          <linearGradient id="cone" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0" stop-color="hsl(var(--h) var(--s) 58%)" stop-opacity="0.20"/>
+            <stop offset="1" stop-color="hsl(var(--h) var(--s) 58%)" stop-opacity="0"/>
+          </linearGradient>
+        </defs>
+        <path class="stone" pathLength="1" style="--d:0.35s; --dd:0.9s" d="M18 86 L18 46 M13 86 L23 86 M13 46 L23 46"/>
+        <path class="stone" pathLength="1" style="--d:0.35s; --dd:0.9s" d="M104 86 L104 46 M99 86 L109 86 M99 46 L109 46"/>
+        <path class="stone" pathLength="1" style="--d:1.15s; --dd:0.6s" d="M23 86 L99 86" opacity="0.45"/>
+        <path class="stone" pathLength="1" style="--d:0.75s; --dd:1.2s" d="M18 46 C 20 32, 38 31, 49 25 C 57 20.5, 60 16, 61 10
+                               C 62 16, 65 20.5, 73 25 C 84 31, 102 32, 104 46"/>
+        <path class="stone" pathLength="1" style="--d:1.5s; --dd:0.3s" d="M61 10 L61 5"/>
+        <g class="rig">
+          <path class="tracery" pathLength="1" style="--d:1.55s; --dd:0.45s" d="M61 16 L61 28 M56 28 L66 28"/>
+          <path class="tracery" pathLength="1" style="--d:1.7s; --dd:0.5s" d="M61 28 L67 37 L61 50 L55 37 Z"/>
+          <g class="glow">
+            <circle cx="61" cy="38" r="5.5" fill="hsl(var(--h) var(--s) 55%)" opacity="0.22"/>
+            <circle cx="61" cy="38" r="2.4" fill="hsl(var(--h) var(--s) 62%)"/>
+            <path d="M56 50 L44 86 L78 86 L66 50 Z" fill="url(#cone)"/>
+          </g>
+        </g>
+        <g class="crow-entry">
+          <g transform="translate(61,86) scale(0.17) translate(-252,-268)">
+            <path class="bird" d="M 170 158 L 212 143 C 220 128, 242 123, 253 135 C 260 142, 263 152, 260 162
+                     C 290 170, 314 188, 320 210 C 332 226, 346 248, 353 268 L 322 252
+                     C 313 258, 301 260, 291 256 C 273 251, 258 247, 250 240
+                     C 231 235, 217 218, 214 197 C 213 182, 208 172, 200 166 Z"/>
+            <path class="bird" d="M 243 240 L 239 258 L 252 254 Z M 261 240 L 261 259 L 273 252 Z"/>
+          </g>
+        </g>
+      </svg>
+      <span class="mote" style="--mx:-16px; --mx2:-24px; --md:6.5s;  --mdel:-1s"></span>
+      <span class="mote" style="--mx:-4px;  --mx2:6px;   --md:8s;    --mdel:-4s"></span>
+      <span class="mote" style="--mx:10px;  --mx2:4px;   --md:7.2s;  --mdel:-2.4s"></span>
+      <span class="mote" style="--mx:20px;  --mx2:30px;  --md:9s;    --mdel:-6s"></span>
+      <span class="mote" style="--mx:0px;   --mx2:-10px; --md:5.8s;  --mdel:-0.2s"></span>
+    </div>
+    <h1><span class="star">✦</span>&nbsp; The Cant of Sietro &nbsp;<span class="star">✦</span></h1>
+    <p class="epigraph" id="epigraph"></p>
+    <div class="rule" aria-hidden="true">
+      <svg viewBox="0 0 12 12"><path d="M6 1 L11 6 L6 11 L1 6 Z"/></svg>
+    </div>
+  </header>
+
+  <main id="swipe-zone">
+    <div class="empty" id="empty">
+      <p>No word has crossed the water yet.<br>The rookery is quiet, or the wire is down.</p>
+      <p style="margin-top:1rem"><a id="retry">Try the crossing again</a></p>
+    </div>
+    <article class="hero" id="hero" aria-live="polite">
+      <h2 class="term" id="term"></h2>
+      <svg class="term-flourish" viewBox="0 0 132 12" aria-hidden="true">
+        <path d="M2 6 C 20 6, 30 2.5, 44 6 C 52 8, 56 6, 60 6 M130 6 C 112 6, 102 2.5, 88 6 C 80 8, 76 6, 72 6"/>
+        <path class="gem" d="M66 2 l4 4 -4 4 -4 -4 Z"/>
+      </svg>
+      <p class="definition" id="definition"></p>
+      <blockquote class="example">
+        <p id="example"></p>
+        <cite>overheard in Sietro</cite>
+      </blockquote>
+      <p class="dayline">
+        <svg class="seal" viewBox="0 0 46 46" aria-hidden="true">
+          <path class="wax" d="M23 2 C 31 1, 39 5, 42 12 C 45.5 19, 44 29, 39 35 C 34 41.5, 25 45, 17.5 42.5
+                   C 10 40, 3.5 33.5, 3 25.5 C 2.5 17, 6 8.5, 13.5 4.5 C 16.5 3, 20 2.3, 23 2 Z"/>
+          <path class="wax-dark" d="M39 35 C 34 41.5, 25 45, 17.5 42.5 C 12 40.7, 7 36.5, 4.7 31.2
+                   C 8 37.5, 15 41.5, 22 41 C 30 40.4, 36.5 36, 39 35 Z" opacity="0.7"/>
+          <circle class="impression" cx="23" cy="23" r="14.5"/>
+          <path class="bird" d="M15.5 21.5 C 17 19.5, 19.5 18.8, 21.2 19.6 C 21.6 18, 23.6 17.3, 25 18.3
+                   L 27.8 17.2 L 25.8 19.2 C 26.5 20.4, 26 21.8, 24.7 22.4 C 27 23.2, 28.7 25, 29.2 27
+                   L 26.5 25.6 C 26.7 27, 25.6 27.8, 24.5 27.5 C 23 28, 21.5 27.8, 20.7 27.2
+                   C 18.8 26.8, 17.2 25.7, 16.3 24.3 C 15.4 23.4, 15.1 22.4, 15.5 21.5 Z"/>
+        </svg>
+        <span id="day"></span>
+        <a class="to-today" id="to-today" style="display:none">return to today</a>
+      </p>
+      <p class="stale-note" id="stale-note">couldn’t reach the rookery, showing the last word to arrive</p>
+      <span class="extends" id="extends"><span class="ext-label">extends&nbsp;·&nbsp;</span><span id="extends-root"></span></span>
+    </article>
+  </main>
+
+  <nav class="pager" aria-label="Browse days">
+    <button id="older">‹ earlier days</button>
+    <button id="newer">later ›</button>
+  </nav>
+</div>
+
+<div class="palina palina-l" aria-hidden="true"></div>
+<div class="palina palina-r" aria-hidden="true"></div>
+<div class="tide" aria-hidden="true">
+  <svg class="waves" viewBox="0 0 1200 80" preserveAspectRatio="none">
+    <path class="wave-a" fill="none" stroke="hsl(var(--h) calc(var(--s) * 0.8) 50%)" stroke-width="1" opacity="0.7"
+      d="M0 42 Q 75 30, 150 42 T 300 42 T 450 42 T 600 42 T 750 42 T 900 42 T 1050 42 T 1200 42"/>
+    <path class="wave-b" fill="none" stroke="hsl(var(--h) calc(var(--s) * 0.6) 60%)" stroke-width="0.8"
+      d="M0 58 Q 100 48, 200 58 T 400 58 T 600 58 T 800 58 T 1000 58 T 1200 58"/>
+  </svg>
+</div>
+
+<script>
+(() => {
+  "use strict";
+
+  const LEXICON_URL = "https://raw.githubusercontent.com/jillianhowarth/sietro-cant/claude/cant/LEXICON.md";
+  const CACHE_KEY = "sietro-cant-lexicon-v1";
+
+  const LINE_RE = /^-\s+\*\*(.+?)\*\*\s+[—–]\s+(.+?)\s+[—–]\s+\*extends:\s*(.+?)\*\s+[—–]\s+["“](.+?)["”]\s+\(Day\s+(\d+)\)\s*$/;
+
+  function parseLexicon(text) {
+    const terms = [];
+    for (const line of text.split(/\r?\n/)) {
+      const m = LINE_RE.exec(line.trim());
+      if (m) {
+        terms.push({ term: m[1], definition: m[2], extendsRoot: m[3], example: m[4], day: parseInt(m[5], 10) });
+      }
+    }
+    terms.sort((a, b) => a.day - b.day);
+    return terms;
+  }
+
+  function todayKey() {
+    const d = new Date();
+    return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(d.getDate()).padStart(2, "0")}`;
+  }
+  function hashStr(s) { // FNV-1a
+    let h = 0x811c9dc5;
+    for (let i = 0; i < s.length; i++) {
+      h ^= s.charCodeAt(i);
+      h = Math.imul(h, 0x01000193);
+    }
+    return h >>> 0;
+  }
+
+  const EPIGRAPHS = [
+    "The tide keeps no ledger, and neither should you.",
+    "Salt spends the same wet or dry.",
+    "A fed crow is a quiet crow.",
+    "Fog is the poor man's carnival.",
+    "Every lamp on the Ivy owes its oil to the Flats.",
+    "What la bocca swallows, no court coughs up.",
+    "Speak soft — wet stone carries.",
+    "The Puddles take all sizes.",
+    "No knife is honest after the second bell.",
+    "High water teaches short prayers.",
+    "A borrowed boat rows quietest.",
+    "Count your fingers after every handshake on the Salt Quay.",
+    "The north wind asks no names and gives none.",
+    "Old rope hangs new thieves.",
+    "Brine keeps fish and captains fresh.",
+    "The ferry runs both ways; only one way is paid in salt."
+  ];
+
+  const THEMES = {
+    gold:  { h: 42,  s: 52 },
+    water: { h: 182, s: 40 },
+    crow:  { h: 352, s: 38 }
+  };
+  function themeFor(extendsRoot) {
+    const r = (extendsRoot || "").toLowerCase();
+    if (/tide|water|sluice|puddle|fog|dock|fish|ferry|canal|wet/.test(r)) return THEMES.water;
+    if (/crow|raven|corvo|death|gallow|bocca|wood/.test(r)) return THEMES.crow;
+    return THEMES.gold;
+  }
+  let dailyHueDrift = 0;
+  function applyTheme(extendsRoot) {
+    const th = themeFor(extendsRoot);
+    const root = document.documentElement.style;
+    root.setProperty("--h", String(th.h + dailyHueDrift));
+    root.setProperty("--s", th.s + "%");
+  }
+
+  function applyDailySeasoning() {
+    const seed = hashStr(todayKey());
+    const root = document.documentElement.style;
+    dailyHueDrift = (seed % 21) - 10;
+    root.setProperty("--flicker", `${7 + (seed >> 3) % 7}s`);
+    const tide = (seed >> 6) % 3;
+    root.setProperty("--tide-h", `${[46, 66, 88][tide]}px`);
+    root.setProperty("--tide-alpha", String([0.3, 0.45, 0.6][tide]));
+    root.setProperty("--tide-speed", `${[34, 26, 19][tide]}s`);
+    root.setProperty("--fog-alpha", String(0.04 + ((seed >> 9) % 5) * 0.013));
+    document.getElementById("epigraph").textContent = EPIGRAPHS[(seed >> 4) % EPIGRAPHS.length];
+  }
+
+  /* ── the entry ───────────────────────────────────────────── */
+  let entering = true;
+  let termRevealed = false;
+
+  function revealTerm(stagger) {
+    const term = el("term");
+    term.style.setProperty("--stagger", `${stagger}ms`);
+    term.classList.remove("reveal");
+    void term.offsetWidth;
+    term.classList.add("reveal");
+    termRevealed = true;
+  }
+
+  function settle() {
+    if (!entering) return;
+    entering = false;
+    document.body.classList.remove("entering");
+    clearTimeout(entryEndTimer);
+    clearTimeout(entryInkTimer);
+    if (!termRevealed) revealTerm(24);
+  }
+
+  const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+  let entryEndTimer, entryInkTimer;
+  if (reduceMotion) {
+    entering = false;
+    document.body.classList.remove("entering");
+    termRevealed = true; // letters just appear
+  } else {
+    entryInkTimer = setTimeout(() => { if (entering) revealTerm(60); }, 3550);
+    entryEndTimer = setTimeout(settle, 5700);
+    document.addEventListener("pointerdown", () => { if (entering) settle(); }, { capture: true });
+  }
+
+  /* ── state & rendering ───────────────────────────────────── */
+  let terms = [];
+  let viewIndex = -1;
+  let usingCacheOnly = false;
+
+  const el = (id) => document.getElementById(id);
+
+  function setTermLetters(text) {
+    const term = el("term");
+    term.textContent = "";
+    [...text].forEach((ch, i) => {
+      const s = document.createElement("span");
+      s.className = "l";
+      s.textContent = ch === " " ? " " : ch;
+      s.style.setProperty("--i", i);
+      term.appendChild(s);
+    });
+  }
+
+  function render(direction) {
+    const page = el("page");
+    if (!terms.length) {
+      page.classList.add("is-empty");
+      return;
+    }
+    page.classList.remove("is-empty");
+    const t = terms[viewIndex];
+    const latest = viewIndex === terms.length - 1;
+    const hero = el("hero");
+
+    const paint = () => {
+      applyTheme(t.extendsRoot);
+      // only re-ink the letters when the word actually changes
+      if (el("term").dataset.value !== t.term) {
+        setTermLetters(t.term);
+        el("term").dataset.value = t.term;
+        if (!entering) revealTerm(30);
+      }
+      el("definition").textContent = t.definition;
+      el("extends-root").textContent = t.extendsRoot.replace(/\s*\/\s*/g, " / ");
+      el("example").textContent = "“" + t.example + "”";
+      el("day").textContent = `Day ${t.day}`;
+      el("to-today").style.display = latest ? "none" : "inline";
+      el("stale-note").classList.toggle("show", latest && usingCacheOnly);
+      el("older").disabled = viewIndex === 0;
+      el("newer").disabled = latest;
+    };
+
+    if (direction && !entering) {
+      hero.style.setProperty("--turn", direction === "older" ? "18px" : "-18px");
+      hero.classList.remove("turning-in");
+      hero.classList.add("turning-out");
+      setTimeout(() => {
+        paint();
+        hero.classList.remove("turning-out");
+        hero.classList.add("turn-prep");
+        requestAnimationFrame(() => requestAnimationFrame(() => {
+          hero.classList.remove("turn-prep");
+          hero.classList.add("turning-in");
+        }));
+      }, 230);
+    } else {
+      paint();
+    }
+  }
+
+  function go(direction) {
+    if (!terms.length || entering) return;
+    const next = direction === "older" ? viewIndex - 1 : viewIndex + 1;
+    if (next < 0 || next >= terms.length) return;
+    viewIndex = next;
+    render(direction);
+  }
+
+  function goToday() {
+    if (!terms.length || viewIndex === terms.length - 1) return;
+    viewIndex = terms.length - 1;
+    render("newer");
+  }
+
+  /* ── fetching ────────────────────────────────────────────── */
+  function loadCache() {
+    try {
+      const raw = localStorage.getItem(CACHE_KEY);
+      return raw ? JSON.parse(raw) : null;
+    } catch { return null; }
+  }
+  function saveCache(text) {
+    try { localStorage.setItem(CACHE_KEY, JSON.stringify({ text, fetchedAt: Date.now() })); } catch {}
+  }
+
+  function adopt(text, fromCacheOnly) {
+    const parsed = parseLexicon(text);
+    if (!parsed.length) return false;
+    const wasAtLatest = viewIndex === -1 || viewIndex === terms.length - 1;
+    const viewedDay = viewIndex >= 0 && terms[viewIndex] ? terms[viewIndex].day : null;
+    terms = parsed;
+    usingCacheOnly = fromCacheOnly;
+    if (wasAtLatest || viewedDay === null) {
+      viewIndex = terms.length - 1;
+    } else {
+      const keep = terms.findIndex((t) => t.day === viewedDay);
+      viewIndex = keep >= 0 ? keep : terms.length - 1;
+    }
+    render();
+    return true;
+  }
+
+  let fetching = false;
+  async function refresh() {
+    if (fetching) return;
+    fetching = true;
+    try {
+      const res = await fetch(`${LEXICON_URL}?t=${Date.now()}`, { cache: "no-store" });
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      const text = await res.text();
+      if (adopt(text, false)) saveCache(text);
+      else throw new Error("no terms parsed");
+    } catch {
+      if (!terms.length) {
+        const cached = loadCache();
+        if (cached && adopt(cached.text, true)) { /* stale note shown */ }
+        else render();
+      } else {
+        usingCacheOnly = true;
+        render();
+      }
+    } finally {
+      fetching = false;
+    }
+  }
+
+  /* ── input ───────────────────────────────────────────────── */
+  let touchX = null, touchY = null;
+  const zone = el("swipe-zone");
+  zone.addEventListener("touchstart", (e) => {
+    touchX = e.changedTouches[0].clientX;
+    touchY = e.changedTouches[0].clientY;
+  }, { passive: true });
+  zone.addEventListener("touchend", (e) => {
+    if (touchX === null) return;
+    const dx = e.changedTouches[0].clientX - touchX;
+    const dy = e.changedTouches[0].clientY - touchY;
+    touchX = touchY = null;
+    if (Math.abs(dx) > 48 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      go(dx > 0 ? "older" : "newer");
+    }
+  }, { passive: true });
+
+  el("older").addEventListener("click", () => go("older"));
+  el("newer").addEventListener("click", () => go("newer"));
+  el("to-today").addEventListener("click", goToday);
+  el("retry").addEventListener("click", refresh);
+  document.addEventListener("keydown", (e) => {
+    if (entering) { settle(); return; }
+    if (e.key === "ArrowLeft") go("older");
+    if (e.key === "ArrowRight") go("newer");
+  });
+
+  /* ── lifecycle ───────────────────────────────────────────── */
+  let seasonedFor = todayKey();
+  function reseasonIfNewDay() {
+    if (todayKey() !== seasonedFor) {
+      seasonedFor = todayKey();
+      applyDailySeasoning();
+    }
+  }
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") { reseasonIfNewDay(); refresh(); }
+  });
+  window.addEventListener("pageshow", () => { reseasonIfNewDay(); refresh(); });
+
+  applyDailySeasoning();
+  const cached = loadCache();
+  if (cached) adopt(cached.text, true);
+  refresh();
+
+  if ("serviceWorker" in navigator) {
+    window.addEventListener("load", () => navigator.serviceWorker.register("sw.js").catch(() => {}));
+  }
+
+  window.__cant = { parseLexicon, refresh, settle, get terms() { return terms; } };
+})();
+</script>
+</body>
+</html>
