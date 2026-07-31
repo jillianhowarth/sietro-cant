@@ -10,7 +10,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 ## Roles of the trade
 - [x] a lookout
 - [x] a pickpocket
-- [ ] a cutpurse
+- [x] a cutpurse
 - [ ] a burglar
 - [ ] a housebreaker
 - [ ] a safecracker
