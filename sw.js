@@ -3,7 +3,7 @@
    (cross-origin, no-store) and persisted in localStorage, so it is
    deliberately NOT intercepted here. */
 
-const CACHE = "cant-shell-v6";
+const CACHE = "cant-shell-v9";
 const SHELL = [
   "./",
   "./index.html",
