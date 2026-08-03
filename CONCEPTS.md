@@ -11,8 +11,8 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a lookout
 - [x] a pickpocket
 - [x] a cutpurse
-- [x] a burglar
-- [x] a housebreaker
+- [ ] a burglar
+- [ ] a housebreaker
 - [ ] a safecracker
 - [ ] a lockpick (person)
 - [ ] a con artist

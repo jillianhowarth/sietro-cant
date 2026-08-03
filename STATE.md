@@ -1,7 +1,5 @@
-Day: 5
+Day: 3
 Recent terms:
-- a borrowed face
-- a rook
-- a light cast
 - a slack rope
-- a night haul
+- a light cast
+- a rook

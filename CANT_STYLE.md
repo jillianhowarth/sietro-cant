@@ -18,11 +18,20 @@ those who hold the key, it's business.
    fence, or salt-farmer might say. One word, or a 2–3 word phrase ("open the sluices,"
    "walk the wood," "a sprig for him").
 3. **Deniable.** A full sentence using the term should still read as harmless small talk.
-4. **Dry and gallows-humored.** Understated, a little grim, never melodramatic. Sietrans joke
+   Before accepting a term, read its context line aloud and ask: *would a Watch officer at the
+   next table hear anything but dock or weather gossip?* If the crime shows through, recoin it.
+4. **Never name the crime.** This is the trap that produces fake cant. The term must NOT contain,
+   translate, or lightly paraphrase the thing it means. If the hidden meaning is "a burglary,"
+   the term cannot lean on *haul*, *break-in*, *job*, *take*, or *night* — those already point at
+   theft. Real cant disguises the crime as an unrelated innocent scene, so the surface and the
+   meaning live in different worlds ("a light cast" = a pickpocketing sounds purely like fishing;
+   "salted" = bribed sounds like curing fish). If someone could guess the meaning from the words
+   alone, it's a synonym, not a cant term — throw it out.
+5. **Dry and gallows-humored.** Understated, a little grim, never melodramatic. Sietrans joke
    at the foot of the scaffold.
-5. **Grounded.** Prefer Sietro specifics (the Flats, the sluices, the Fratelli piazzas, the
+6. **Grounded.** Prefer Sietro specifics (the Flats, the sluices, the Fratelli piazzas, the
    north wind, the Withered Bloom) over generic thief-slang.
-6. **English first, Italian as seasoning.** The players speak English, so terms are mostly
+7. **English first, Italian as seasoning.** The players speak English, so terms are mostly
    plain English. Reach for an Italian word only when it genuinely fits or gives a coined term
    some flavor (*acqua alta* for the rising Watch, *la bocca* for a denunciation drop, *corvo*
    for a crow/informant). Keep any Italian easy for an English speaker to read and say — a light
