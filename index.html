@@ -250,6 +250,7 @@
     0%, 100% { text-shadow: 0 0 34px hsla(var(--h), var(--s), 55%, 0.18); }
     50%      { text-shadow: 0 0 44px hsla(var(--h), var(--s), 55%, 0.3); }
   }
+  .term .w { display: inline-block; white-space: nowrap; }
   .term .l { display: inline-block; }
   /* During the entry, keep freshly-painted letters hidden until they ink in,
      so the fully-formed word never flashes before its reveal animation.
@@ -813,12 +814,27 @@
   function setTermLetters(text) {
     const term = el("term");
     term.textContent = "";
-    [...text].forEach((ch, i) => {
-      const s = document.createElement("span");
-      s.className = "l";
-      s.textContent = ch === " " ? " " : ch;
-      s.style.setProperty("--i", i);
-      term.appendChild(s);
+    // Group each word's letters in a non-breaking wrapper so a line break can
+    // only fall between whole words, never mid-word (e.g. the trailing "s" of
+    // "stones" dropping to its own line). The letter index keeps counting
+    // across words so the staggered ink-in reveal stays continuous.
+    let i = 0;
+    text.split(/(\s+)/).forEach((chunk) => {
+      if (chunk === "") return;
+      if (/^\s+$/.test(chunk)) {
+        term.appendChild(document.createTextNode(" ")); // breakable gap
+        return;
+      }
+      const word = document.createElement("span");
+      word.className = "w";
+      [...chunk].forEach((ch) => {
+        const s = document.createElement("span");
+        s.className = "l";
+        s.textContent = ch;
+        s.style.setProperty("--i", i++);
+        word.appendChild(s);
+      });
+      term.appendChild(word);
     });
   }
 
