@@ -814,15 +814,14 @@
   function setTermLetters(text) {
     const term = el("term");
     term.textContent = "";
-    // Group each word's letters in a non-breaking wrapper so a line break can
-    // only fall between whole words, never mid-word (e.g. the trailing "s" of
-    // "stones" dropping to its own line). The letter index keeps counting
-    // across words so the staggered ink-in reveal stays continuous.
+    // Each word's letters live in their own wrapper. If JS-based fitting is
+    // unavailable, `white-space: nowrap` keeps whole words together; normally
+    // fitTerm() scales the type so the whole headword sits on one line.
     let i = 0;
     text.split(/(\s+)/).forEach((chunk) => {
       if (chunk === "") return;
       if (/^\s+$/.test(chunk)) {
-        term.appendChild(document.createTextNode(" ")); // breakable gap
+        term.appendChild(document.createTextNode(" "));
         return;
       }
       const word = document.createElement("span");
@@ -836,6 +835,24 @@
       });
       term.appendChild(word);
     });
+    fitTerm();
+  }
+
+  // Keep the headword on a single line by scaling the type down to fit the
+  // available width — never wrapping — so short words stay large and long
+  // phrases ("tapping the stones") shrink just enough to fit on one line.
+  function fitTerm() {
+    const term = el("term");
+    term.style.fontSize = "";           // start from the CSS clamp size
+    term.style.whiteSpace = "nowrap";   // measure the natural one-line width
+    const avail = term.clientWidth;
+    const natural = term.scrollWidth;
+    if (avail > 0 && natural > avail) {
+      const base = parseFloat(getComputedStyle(term).fontSize);
+      const fitted = base * (avail / natural);
+      // leave a hair of breathing room, and don't shrink below a floor
+      term.style.fontSize = Math.max(fitted * 0.99, 20) + "px";
+    }
   }
 
   function render(direction) {
@@ -972,6 +989,8 @@
   el("newer").addEventListener("click", () => go("newer"));
   el("to-today").addEventListener("click", goToday);
   el("retry").addEventListener("click", refresh);
+  // re-fit the headword to one line on rotation / width change
+  window.addEventListener("resize", fitTerm);
   document.addEventListener("keydown", (e) => {
     if (entering) { settle(); return; }
     if (e.key === "ArrowLeft") go("older");
