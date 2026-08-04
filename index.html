@@ -426,9 +426,9 @@
   .tide {
     position: fixed;
     left: 0; right: 0;
-    /* sit the water along the frame's inner bottom edge, so the frame border
-       rests at the waterline instead of slicing through the waves */
-    bottom: calc(var(--sab) + 8px);
+    /* bleed the water to the very bottom edge of the screen, under the home
+       indicator, so the scene reaches the bottom of the phone */
+    bottom: 0;
     height: var(--tide-h);
     z-index: 5;
     pointer-events: none;
@@ -450,7 +450,7 @@
   }
   .palina {
     position: fixed;
-    bottom: calc(var(--sab) + 8px);
+    bottom: 0;
     z-index: 4;
     pointer-events: none;
     width: 8px;
