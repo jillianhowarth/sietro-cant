@@ -13,7 +13,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a cutpurse
 - [x] a burglar
 - [x] a housebreaker
-- [ ] a safecracker
+- [x] a safecracker
 - [ ] a lockpick (person)
 - [ ] a con artist
 - [ ] a grifter
