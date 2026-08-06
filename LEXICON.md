@@ -5,3 +5,4 @@
 - **walking the ivy** — burglary, theft from a building — *extends: ivy/nobility* — "She's been walking the ivy for three months." (Day 4)
 - **tapping the stones** — breaking into a house or building — *extends: ivy & gardens* — "Tapping the stones at that tenement looks clean tonight." (Day 5)
 - **the tickle** — cracking a safe or lock — *extends: docks/fishing* — "That vault needs some serious tickle." (Day 6)
+- **a gaff** — a lockpick; someone skilled at opening locks and sealed barriers — *extends: docks & fishing* — "They got through it. Must've had a gaff with them." (Day 7)
