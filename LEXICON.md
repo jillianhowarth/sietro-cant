@@ -7,3 +7,4 @@
 - **the tickle** — cracking a safe or lock — *extends: docks/fishing* — "That vault needs some serious tickle." (Day 6)
 - **a gaff** — a lockpick; someone skilled at opening locks and sealed barriers — *extends: docks & fishing* — "They got through it. Must've had a gaff with them." (Day 7)
 - **a silk line** — a con artist who works with patience and precision — *extends: docks & fishing* — "That merchant? She's running a silk line, don't trust her smile." (Day 8)
+- **the slow haul** — a grifter; someone running a long confidence game — *extends: docks & fishing* — "She knows how to work the slow haul—says it beats fighting the tide." (Day 9)
