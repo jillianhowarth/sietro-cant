@@ -16,3 +16,9 @@ is always a metaphor for risk.
 ## Convention 3 — Never name the Collective
 You don't say "the Collective." You say "the north wind," "the quiet ones," or just tip your
 head north. Naming them outright marks you as an outsider — or a fool.
+
+## Convention 4 — You don't use names
+In the cant, a person is never a given name. You know them by their trade ("the look," "a fence"),
+their patron or turf ("Vicenza's hand," "an eastern house"), or their reputation ("the smooth
+tongue," "the one with quick fingers"). Names are for the law and the courts. In the underworld,
+you know who matters because of who they're tied to and what they can do.
