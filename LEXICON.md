@@ -10,3 +10,4 @@
 - **the slow haul** — a grifter; someone running a long confidence game — *extends: docks & fishing* — "She knows how to work the slow haul—says it beats fighting the tide." (Day 9)
 - **mending the vine** — arranging a fix through connections, solving a problem via patronage — *extends: ivy/patronage* — "That captain been causing trouble? The Collective has someone mending the vine." (Day 10)
 - **the undertow** — a moneylender; someone who traps you in debt — *extends: water/law* — "He's caught in the undertow." (Day 11)
+- **bleeding the catch** — predatory lending; a loan shark — *extends: docks & fishing* — "The catch-bleed moved into the Puddles last month, so stay clear of their circle." (Day 12)
