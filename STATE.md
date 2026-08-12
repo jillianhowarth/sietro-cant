@@ -1,9 +1,9 @@
-Day: 12
+Day: 13
 Recent terms:
-- walking the ivy
 - a slack rope
 - a light cast
 - the slow haul
 - mending the vine
 - the undertow
 - bleeding the catch
+- the salt's due

@@ -20,7 +20,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a fixer
 - [x] a moneylender
 - [x] a loan shark
-- [ ] a debt collector
+- [x] a debt collector
 - [ ] an enforcer
 - [ ] hired muscle
 - [ ] a bodyguard
