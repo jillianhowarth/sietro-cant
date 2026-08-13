@@ -21,7 +21,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a moneylender
 - [x] a loan shark
 - [x] a debt collector
-- [ ] an enforcer
+- [x] an enforcer
 - [ ] hired muscle
 - [ ] a bodyguard
 - [ ] the boss

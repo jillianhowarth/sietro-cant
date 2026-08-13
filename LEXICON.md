@@ -12,3 +12,4 @@
 - **the undertow** — a moneylender; someone who traps you in debt — *extends: water/law* — "He's caught in the undertow." (Day 11)
 - **bleeding the catch** — predatory lending; a loan shark — *extends: docks & fishing* — "The catch-bleed moved into the Puddles last month, so stay clear of their circle." (Day 12)
 - **the salt's due** — debts coming due for collection, or a debt collector making rounds — *extends: salt/money* — "The salt's due—the eastern houses are empty." (Day 13)
+- **the ebb** — an enforcer; muscle sent to collect on a debt — *extends: water/tide* — "When the ebb comes, you'd better have the salt ready" (Day 14)
