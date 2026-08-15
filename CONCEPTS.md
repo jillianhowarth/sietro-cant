@@ -23,7 +23,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a debt collector
 - [x] an enforcer
 - [x] hired muscle
-- [ ] a bodyguard
+- [x] a bodyguard
 - [ ] the boss
 - [ ] a family soldier
 - [ ] a made man
