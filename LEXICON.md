@@ -15,3 +15,4 @@
 - **the ebb** — an enforcer; muscle sent to collect on a debt — *extends: water/tide* — "When the ebb comes, you'd better have the salt ready" (Day 14)
 - **the hook** — a hired enforcer, someone kept to do rough work — *extends: docks & fishing* — "We needed the hook on this one, or Corvetti's crew would've made trouble." (Day 15)
 - **a mooring** — someone hired to stand close and provide protection — *extends: docks* — "The merchant took on a mooring for the road." (Day 16)
+- **the keel** — the leader of a crew or operation — *extends: docks & fishing/the trade* — "Who keeps the Withered Bloom running? The keel's word moves cargo." (Day 17)

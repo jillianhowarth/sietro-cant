@@ -1,9 +1,9 @@
-Day: 16
+Day: 17
 Recent terms:
+- the keel
 - a mooring
-- the slow haul
-- mending the vine
-- the undertow
-- bleeding the catch
-- the salt's due
+- the hook
 - the ebb
+- the salt's due
+- bleeding the catch
+- the undertow
