@@ -25,7 +25,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] hired muscle
 - [x] a bodyguard
 - [x] the boss
-- [ ] a family soldier
+- [x] a family soldier
 - [ ] a made man
 - [ ] a footsoldier
 - [ ] a courier

@@ -16,3 +16,4 @@
 - **the hook** — a hired enforcer, someone kept to do rough work — *extends: docks & fishing* — "We needed the hook on this one, or Corvetti's crew would've made trouble." (Day 15)
 - **a mooring** — someone hired to stand close and provide protection — *extends: docks* — "The merchant took on a mooring for the road." (Day 16)
 - **the keel** — the leader of a crew or operation — *extends: docks & fishing/the trade* — "Who keeps the Withered Bloom running? The keel's word moves cargo." (Day 17)
+- **a salt hand** — a loyal operative, an enforcer working for a family — *extends: salt & labor* — "The western house lost one of its salt hands to the Watch last week." (Day 18)
