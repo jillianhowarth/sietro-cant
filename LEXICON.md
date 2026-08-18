@@ -17,3 +17,4 @@
 - **a mooring** — someone hired to stand close and provide protection — *extends: docks* — "The merchant took on a mooring for the road." (Day 16)
 - **the keel** — the leader of a crew or operation — *extends: docks & fishing/the trade* — "Who keeps the Withered Bloom running? The keel's word moves cargo." (Day 17)
 - **a salt hand** — a loyal operative, an enforcer working for a family — *extends: salt & labor* — "The western house lost one of its salt hands to the Watch last week." (Day 18)
+- **the line holds** — accepted into the underworld, initiated and secure — *extends: docks/fishing* — "The line holds for him now." (Day 19)
