@@ -1,9 +1,9 @@
-Day: 19
+Day: 20
 Recent terms:
-- the line holds
-- a salt hand
-- the keel
-- a mooring
-- the hook
-- the ebb
+- a berth
 - the salt's due
+- the ebb
+- the hook
+- a mooring
+- the keel
+- a salt hand

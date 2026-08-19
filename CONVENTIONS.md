@@ -22,3 +22,7 @@ In the cant, a person is never a given name. You know them by their trade ("the 
 their patron or turf ("Vicenza's hand," "an eastern house"), or their reputation ("the smooth
 tongue," "the one with quick fingers"). Names are for the law and the courts. In the underworld,
 you know who matters because of who they're tied to and what they can do.
+
+## Convention 5 — Silence is assent
+A nod, a turned back, or no answer seals a deal in the cant. Quiet is safety; words attract the
+Watch. The underworld moves on looks and silence.
