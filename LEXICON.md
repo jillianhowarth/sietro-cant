@@ -19,3 +19,4 @@
 - **a salt hand** — a loyal operative, an enforcer working for a family — *extends: salt & labor* — "The western house lost one of its salt hands to the Watch last week." (Day 18)
 - **the line holds** — accepted into the underworld, initiated and secure — *extends: docks/fishing* — "The line holds for him now." (Day 19)
 - **a berth** — a hired footsoldier, muscle, low-ranking enforcer — *extends: docks & fishing* — "The Collective brought in a berth to watch the warehouse." (Day 20)
+- **a ferry-hand** — a courier; someone who facilitates passage of goods or messages between locations — *extends: ferry/passage* — "We need a ferry-hand to run this north; can't trust the usual routes." (Day 21)
