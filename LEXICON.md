@@ -20,3 +20,4 @@
 - **the line holds** — accepted into the underworld, initiated and secure — *extends: docks/fishing* — "The line holds for him now." (Day 19)
 - **a berth** — a hired footsoldier, muscle, low-ranking enforcer — *extends: docks & fishing* — "The Collective brought in a berth to watch the warehouse." (Day 20)
 - **a ferry-hand** — a courier; someone who facilitates passage of goods or messages between locations — *extends: ferry/passage* — "We need a ferry-hand to run this north; can't trust the usual routes." (Day 21)
+- **a fog-rower** — a boatman; passage by water in poor visibility — *extends: fog/good cover* — "Fog rolls in heavy. Time to arrange a fog-rower for the crossing." (Day 22)
