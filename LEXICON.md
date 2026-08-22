@@ -21,3 +21,4 @@
 - **a berth** — a hired footsoldier, muscle, low-ranking enforcer — *extends: docks & fishing* — "The Collective brought in a berth to watch the warehouse." (Day 20)
 - **a ferry-hand** — a courier; someone who facilitates passage of goods or messages between locations — *extends: ferry/passage* — "We need a ferry-hand to run this north; can't trust the usual routes." (Day 21)
 - **a fog-rower** — a boatman; passage by water in poor visibility — *extends: fog/good cover* — "Fog rolls in heavy. Time to arrange a fog-rower for the crossing." (Day 22)
+- **a tide-tongue** — a beggar informant; someone who listens at the margins and sells secrets — *extends: water/tide* — "The tide-tongue at the western docks knows when the Watch sweeps." (Day 23)

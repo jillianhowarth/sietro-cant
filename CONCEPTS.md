@@ -30,7 +30,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a footsoldier
 - [x] a courier
 - [x] a getaway boatman
-- [ ] a beggar who sells information
+- [x] a beggar who sells information
 - [ ] a corrupt guard
 - [ ] a corrupt official
 - [ ] a card sharp
