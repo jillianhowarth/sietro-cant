@@ -23,3 +23,4 @@
 - **a fog-rower** — a boatman; passage by water in poor visibility — *extends: fog/good cover* — "Fog rolls in heavy. Time to arrange a fog-rower for the crossing." (Day 22)
 - **a tide-tongue** — a beggar informant; someone who listens at the margins and sells secrets — *extends: water/tide* — "The tide-tongue at the western docks knows when the Watch sweeps." (Day 23)
 - **a loose mooring** — a guard paid to overlook smuggling — *extends: docks* — "The harbor checkpoint has a loose mooring, so cargo moves through easy there." (Day 24)
+- **blind captain** — a corrupt official paid to overlook crimes — *extends: docks & fishing* — "The blind captain pulls the western gate." (Day 25)
