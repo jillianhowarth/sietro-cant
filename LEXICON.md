@@ -25,3 +25,4 @@
 - **a loose mooring** — a guard paid to overlook smuggling — *extends: docks* — "The harbor checkpoint has a loose mooring, so cargo moves through easy there." (Day 24)
 - **blind captain** — a corrupt official paid to overlook crimes — *extends: docks & fishing* — "The blind captain pulls the western gate." (Day 25)
 - **a quiet hand** — a card sharp, one who cheats at cards — *extends: mask/identity* — "That new player in the Bloom? Careful—he's got a quiet hand." (Day 26)
+- **the pruner** — a poisoner — *extends: ivy* — "The pruner came through the Ivy last night." (Day 27)

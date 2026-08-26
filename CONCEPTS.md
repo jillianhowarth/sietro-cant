@@ -34,7 +34,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a corrupt guard
 - [x] a corrupt official
 - [x] a card sharp
-- [ ] a poisoner
+- [x] a poisoner
 - [ ] a hired killer
 - [ ] a receiver of stolen goods
 
