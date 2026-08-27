@@ -26,3 +26,4 @@
 - **blind captain** — a corrupt official paid to overlook crimes — *extends: docks & fishing* — "The blind captain pulls the western gate." (Day 25)
 - **a quiet hand** — a card sharp, one who cheats at cards — *extends: mask/identity* — "That new player in the Bloom? Careful—he's got a quiet hand." (Day 26)
 - **the pruner** — a poisoner — *extends: ivy* — "The pruner came through the Ivy last night." (Day 27)
+- **the night hand** — a hired killer — *extends: docks & labor* — "There's a night hand in port." (Day 28)
