@@ -27,3 +27,4 @@
 - **a quiet hand** — a card sharp, one who cheats at cards — *extends: mask/identity* — "That new player in the Bloom? Careful—he's got a quiet hand." (Day 26)
 - **the pruner** — a poisoner — *extends: ivy* — "The pruner came through the Ivy last night." (Day 27)
 - **the night hand** — a hired killer — *extends: docks & labor* — "There's a night hand in port." (Day 28)
+- **a morning stall** — a receiver of stolen goods; a fence — *extends: docks & fishing* — "He's got a hot piece? The morning stall will take it." (Day 29)
