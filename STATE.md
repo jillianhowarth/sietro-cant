@@ -1,9 +1,9 @@
-Day: 29
+Day: 30
 Recent terms:
-- the keel
 - a salt hand
 - a tide-tongue
 - a loose mooring
 - blind captain
 - the night hand
 - a morning stall
+- a still cast

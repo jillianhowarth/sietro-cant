@@ -39,7 +39,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a receiver of stolen goods
 
 ## Marks and targets
-- [ ] a mark
+- [x] a mark
 - [ ] a rich mark
 - [ ] a drunk mark
 - [ ] a travelling stranger

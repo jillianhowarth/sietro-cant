@@ -26,3 +26,8 @@ you know who matters because of who they're tied to and what they can do.
 ## Convention 5 — Silence is assent
 A nod, a turned back, or no answer seals a deal in the cant. Quiet is safety; words attract the
 Watch. The underworld moves on looks and silence.
+
+## Convention 6 — Repetition marks urgency
+A cant term spoken twice—quick and sharp—is a warning. "The ebb, the ebb" means muscle's coming
+hard; "a rook, a rook" means danger at the door right now. One word passes information safely;
+doubles demand immediate action. The doubled word always means trouble.
