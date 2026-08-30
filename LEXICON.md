@@ -29,3 +29,4 @@
 - **the night hand** — a hired killer — *extends: docks & labor* — "There's a night hand in port." (Day 28)
 - **a morning stall** — a receiver of stolen goods; a fence — *extends: docks & fishing* — "He's got a hot piece? The morning stall will take it." (Day 29)
 - **a still cast** — a target, someone marked for work or easily identified — *extends: docks & fishing* — "Watch that one close, he's a still cast." (Day 30)
+- **a weighty catch** — a wealthy person worth targeting — *extends: catch/fishing* — "That merchant from the north is looking like a weighty catch." (Day 31)

@@ -1,6 +1,6 @@
-Day: 30
+Day: 31
 Recent terms:
-- a salt hand
+- a weighty catch
 - a tide-tongue
 - a loose mooring
 - blind captain

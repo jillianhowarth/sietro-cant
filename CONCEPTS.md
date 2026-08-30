@@ -40,7 +40,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 
 ## Marks and targets
 - [x] a mark
-- [ ] a rich mark
+- [x] a rich mark
 - [ ] a drunk mark
 - [ ] a travelling stranger
 - [ ] a wide-eyed tourist
