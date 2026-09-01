@@ -31,3 +31,4 @@
 - **a still cast** — a target, someone marked for work or easily identified — *extends: docks & fishing* — "Watch that one close, he's a still cast." (Day 30)
 - **a weighty catch** — a wealthy person worth targeting — *extends: catch/fishing* — "That merchant from the north is looking like a weighty catch." (Day 31)
 - **a listing catch** — a drunk person, an easy target for picking — *extends: docks & fishing* — "There's a listing catch by the fountain tonight." (Day 32)
+- **a blind cargo** — a travelling stranger — *extends: docks/cargo* — "A blind cargo pulled through at dusk." (Day 33)
