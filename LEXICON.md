@@ -32,3 +32,4 @@
 - **a weighty catch** — a wealthy person worth targeting — *extends: catch/fishing* — "That merchant from the north is looking like a weighty catch." (Day 31)
 - **a listing catch** — a drunk person, an easy target for picking — *extends: docks & fishing* — "There's a listing catch by the fountain tonight." (Day 32)
 - **a blind cargo** — a travelling stranger — *extends: docks/cargo* — "A blind cargo pulled through at dusk." (Day 33)
+- **bright catch** — a naive newcomer to the city or underworld, obviously out of place — *extends: a catch / a haul* — "That merchant's crew are all bright catches, fresh off the boat." (Day 34)
