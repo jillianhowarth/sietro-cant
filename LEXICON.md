@@ -34,3 +34,4 @@
 - **a blind cargo** — a travelling stranger — *extends: docks/cargo* — "A blind cargo pulled through at dusk." (Day 33)
 - **bright catch** — a naive newcomer to the city or underworld, obviously out of place — *extends: a catch / a haul* — "That merchant's crew are all bright catches, fresh off the boat." (Day 34)
 - **a deep hold** — a merchant worth robbing, someone carrying valuable cargo or clearly wealthy — *extends: cargo/fishing* — "Watch the one loading at the western slip—she's a deep hold." (Day 35)
+- **a ripe garden** — a noble worth robbing — *extends: ivy/nobility* — "The Contarini palazzo? A ripe garden these days." (Day 36)
