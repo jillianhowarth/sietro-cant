@@ -35,3 +35,4 @@
 - **bright catch** — a naive newcomer to the city or underworld, obviously out of place — *extends: a catch / a haul* — "That merchant's crew are all bright catches, fresh off the boat." (Day 34)
 - **a deep hold** — a merchant worth robbing, someone carrying valuable cargo or clearly wealthy — *extends: cargo/fishing* — "Watch the one loading at the western slip—she's a deep hold." (Day 35)
 - **a ripe garden** — a noble worth robbing — *extends: ivy/nobility* — "The Contarini palazzo? A ripe garden these days." (Day 36)
+- **wearing green** — under a patron's hand, protected by patronage — *extends: ivy/patronage* — "Don't ask him; he's wearing green for the Vicenza now." (Day 37)
