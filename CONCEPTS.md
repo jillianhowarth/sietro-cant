@@ -1,13 +1,15 @@
 # Concepts queue
 
-The daily keeper coins a cant term for the first unchecked concept, then checks it off. Ordered
-roughly from the most universal underworld ideas to the more Sietro-specific. Concepts already
-covered directly by CORE_IMAGERY.md (money, the Watch, contraband, informant, poison, disguise,
-smuggler, getaway, the Collective) are excluded — those are roots, not queue items.
+The daily keeper coins a cant term for the first unchecked concept, then checks it off. The
+queue is interleaved across kinds of concept (roles, marks, verbs, kit, money, danger,
+communication, Sietro-specific) so consecutive days don't land in the same corner of the
+underworld. Concepts already covered directly by CORE_IMAGERY.md (money, the Watch, contraband,
+informant, poison, disguise, smuggler, getaway, the Collective) are excluded — those are roots,
+not queue items.
 
 Format each line EXACTLY as "- [ ] concept" so a single grep can find the next one.
 
-## Roles of the trade
+## Done
 - [x] a lookout
 - [x] a pickpocket
 - [x] a cutpurse
@@ -37,8 +39,6 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a poisoner
 - [x] a hired killer
 - [x] a receiver of stolen goods
-
-## Marks and targets
 - [x] a mark
 - [x] a rich mark
 - [x] a drunk mark
@@ -48,38 +48,111 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a noble worth robbing
 - [x] a patron
 - [x] a rival
-- [ ] a newcomer to the trade
-- [ ] a sucker who trusts too easily
-- [ ] an outsider
 
-## The work (verbs)
+## Queue
+- [ ] a newcomer to the trade
 - [ ] to steal
+- [ ] forged papers
+- [ ] a cut or share
+- [ ] getting caught
+- [ ] the all-clear (and giving it)
+- [ ] the Fratelli District (home turf)
+- [ ] a sucker who trusts too easily
 - [ ] to rob
+- [ ] counterfeit coin
+- [ ] profit
+- [ ] getting killed
+- [ ] a danger signal (a warning)
+- [ ] the black market at Piazza Del Scambiatore
+- [ ] an outsider
 - [ ] to burgle a house
+- [ ] a hidden knife
+- [ ] protection money
+- [ ] a body in the canal
+- [ ] a meeting
+- [ ] the Withered Bloom (Collective front)
 - [ ] to pick a pocket
+- [ ] a lockpick set
+- [ ] a payoff
+- [ ] a betrayal
+- [ ] a deal
+- [ ] the House of Vornoth (no-questions hospital)
 - [ ] to cut a purse
+- [ ] a safehouse or hideout
+- [ ] a debt
+- [ ] prison
+- [ ] a handshake deal
+- [ ] the Noose and Anchor (an inn)
 - [ ] to case a target
+- [ ] a stash
+- [ ] interest owed
+- [ ] the noose
+- [ ] trust
+- [ ] the salt flats as a place to vanish
 - [ ] to break in
+- [ ] the take (the loot)
+- [ ] tribute to the family
+- [ ] a vendetta
+- [ ] a secret
+- [ ] the sewers and back canals
 - [ ] to pick a lock
+- [ ] a secret message
+- [ ] hush money
+- [ ] a bounty on your head
+- [ ] an oath of silence
+- [ ] a smugglers' tunnel
 - [ ] to crack a safe
+- [ ] a password or countersign
+- [ ] a purse of coin
+- [ ] being marked for death
+- [ ] a reliable contact
+- [ ] the Vicenza Family
 - [ ] to bribe
+- [ ] a marked coin
+- [ ] a gambling debt
+- [ ] being burned (exposed)
+- [ ] a tip-off
+- [ ] the Renoldi Family (fading)
 - [ ] to threaten
+- [ ] a smuggled crate
+- [ ] a setup or trap
+- [ ] word on the street
+- [ ] Vicenza turf (western Fratelli)
 - [ ] to extort
+- [ ] a false-bottomed cart
+- [ ] a witness
+- [ ] a favor owed
+- [ ] the eastern Fratelli under the north wind
 - [ ] to run a protection racket
+- [ ] a signal lantern
+- [ ] a public flogging
+- [ ] a debt of loyalty
+- [ ] the Rogati in a family's pocket
 - [ ] to launder money
+- [ ] a ledger of debts
+- [ ] the stocks
+- [ ] a bribed member of the Watch
 - [ ] to skim a cut
+- [ ] a hidden compartment
+- [ ] the Duke's mercenaries (the Bronze Guardians)
 - [ ] to run a con
+- [ ] stolen jewelry
+- [ ] a noble's poison feud
 - [ ] to blackmail
+- [ ] a black-market good
+- [ ] a salt-farmer turned smuggler
 - [ ] to eavesdrop
+- [ ] joining a family
 - [ ] to tail someone
+- [ ] leaving a family alive
 - [ ] to shake someone down
+- [ ] tribute night
 - [ ] to double-cross
 - [ ] to collect a debt
 - [ ] to swear silence
 - [ ] to flee
 - [ ] to lie low
 - [ ] to signal danger
-- [ ] to give the all-clear
 - [ ] to ambush
 - [ ] to go straight
 - [ ] to snitch on the family
@@ -88,90 +161,3 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [ ] to disappear someone
 - [ ] to fix a deal
 - [ ] to keep watch
-
-## The kit and the goods
-- [ ] forged papers
-- [ ] counterfeit coin
-- [ ] a hidden knife
-- [ ] a lockpick set
-- [ ] a safehouse
-- [ ] a hideout
-- [ ] a stash
-- [ ] the take (the loot)
-- [ ] a secret message
-- [ ] a password or countersign
-- [ ] a marked coin
-- [ ] a smuggled crate
-- [ ] a false-bottomed cart
-- [ ] a signal lantern
-- [ ] a ledger of debts
-- [ ] a hidden compartment
-- [ ] stolen jewelry
-- [ ] a black-market good
-
-## Money and debts
-- [ ] a cut or share
-- [ ] profit
-- [ ] protection money
-- [ ] a payoff
-- [ ] a debt
-- [ ] interest owed
-- [ ] tribute to the family
-- [ ] hush money
-- [ ] a purse of coin
-- [ ] a gambling debt
-
-## Danger and bad ends
-- [ ] getting caught
-- [ ] getting killed
-- [ ] a body in the canal
-- [ ] a betrayal
-- [ ] prison
-- [ ] the noose
-- [ ] a vendetta
-- [ ] a bounty on your head
-- [ ] being marked for death
-- [ ] a rat
-- [ ] being burned (exposed)
-- [ ] a setup or trap
-- [ ] a witness
-- [ ] a public flogging
-- [ ] the stocks
-
-## Communication and trust
-- [ ] a warning
-- [ ] the all-clear
-- [ ] a danger signal
-- [ ] a meeting
-- [ ] a deal
-- [ ] a handshake deal
-- [ ] trust
-- [ ] a secret
-- [ ] an oath of silence
-- [ ] a reliable contact
-- [ ] a tip-off
-- [ ] word on the street
-- [ ] a favor owed
-- [ ] a debt of loyalty
-
-## Sietro-specific
-- [ ] the Fratelli District (home turf)
-- [ ] the black market at Piazza Del Scambiatore
-- [ ] the Withered Bloom (Collective front)
-- [ ] the House of Vornoth (no-questions hospital)
-- [ ] the Noose and Anchor (an inn)
-- [ ] the salt flats as a place to vanish
-- [ ] the sewers and back canals
-- [ ] a smugglers' tunnel
-- [ ] the Vicenza Family
-- [ ] the Renoldi Family (fading)
-- [ ] Vicenza turf (western Fratelli)
-- [ ] the eastern Fratelli under the north wind
-- [ ] the Rogati in a family's pocket
-- [ ] a bribed member of the Watch
-- [ ] the Duke's mercenaries (the Bronze Guardians)
-- [ ] a noble's poison feud
-- [ ] a salt-farmer turned smuggler
-- [ ] joining a family
-- [ ] leaving a family alive
-- [ ] tribute night
