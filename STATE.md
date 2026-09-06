@@ -1,9 +1,9 @@
-Day: 37
+Day: 38
 Recent terms:
-- a still cast
 - a listing catch
 - a blind cargo
 - bright catch
 - a deep hold
 - a ripe garden
 - wearing green
+- a crossed haul

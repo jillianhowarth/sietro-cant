@@ -47,7 +47,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a merchant worth robbing
 - [x] a noble worth robbing
 - [x] a patron
-- [ ] a rival
+- [x] a rival
 - [ ] a newcomer to the trade
 - [ ] a sucker who trusts too easily
 - [ ] an outsider

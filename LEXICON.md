@@ -36,3 +36,4 @@
 - **a deep hold** — a merchant worth robbing, someone carrying valuable cargo or clearly wealthy — *extends: cargo/fishing* — "Watch the one loading at the western slip—she's a deep hold." (Day 35)
 - **a ripe garden** — a noble worth robbing — *extends: ivy/nobility* — "The Contarini palazzo? A ripe garden these days." (Day 36)
 - **wearing green** — under a patron's hand, protected by patronage — *extends: ivy/patronage* — "Don't ask him; he's wearing green for the Vicenza now." (Day 37)
+- **a crossed haul** — a rival operation taking the same cargo routes — *extends: docks & fishing* — "The Flats are getting a crossed haul from the Collective's people." (Day 38)
