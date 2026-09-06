@@ -692,14 +692,14 @@
   const LEXICON_URL = "https://raw.githubusercontent.com/jillianhowarth/sietro-cant/claude/cant/LEXICON.md";
   const CACHE_KEY = "sietro-cant-lexicon-v1";
 
-  const LINE_RE = /^-\s+\*\*(.+?)\*\*\s+[—–]\s+(.+?)\s+[—–]\s+\*extends:\s*(.+?)\*\s+[—–]\s+["“](.+?)["”]\s+\(Day\s+(\d+)\)\s*$/;
+  const LINE_RE = /^-\s+\*\*(.+?)\*\*\s+[—–]\s+(.+?)\s+[—–]\s+(?:\*literally:\s*(.+?)\*\s+[—–]\s+)?\*extends:\s*(.+?)\*\s+[—–]\s+["“](.+?)["”]\s+\(Day\s+(\d+)\)\s*$/;
 
   function parseLexicon(text) {
     const terms = [];
     for (const line of text.split(/\r?\n/)) {
       const m = LINE_RE.exec(line.trim());
       if (m) {
-        terms.push({ term: m[1], definition: m[2], extendsRoot: m[3], example: m[4], day: parseInt(m[5], 10) });
+        terms.push({ term: m[1], definition: m[2], literally: m[3] || "", extendsRoot: m[4], example: m[5], day: parseInt(m[6], 10) });
       }
     }
     terms.sort((a, b) => a.day - b.day);
@@ -745,7 +745,7 @@
   };
   function themeFor(extendsRoot) {
     const r = (extendsRoot || "").toLowerCase();
-    if (/tide|water|sluice|puddle|fog|dock|fish|ferry|canal|wet/.test(r)) return THEMES.water;
+    if (/tide|water|sluice|puddle|fog|dock|fish|ferry|canal|wet|sea|boat/.test(r)) return THEMES.water;
     if (/crow|raven|corvo|death|gallow|bocca|wood/.test(r)) return THEMES.crow;
     return THEMES.gold;
   }
