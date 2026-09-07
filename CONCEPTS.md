@@ -50,7 +50,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a rival
 
 ## Queue
-- [ ] a newcomer to the trade
+- [x] a newcomer to the trade
 - [ ] to steal
 - [ ] forged papers
 - [ ] a cut or share
