@@ -31,3 +31,7 @@ Watch. The underworld moves on looks and silence.
 A cant term spoken twice—quick and sharp—is a warning. "The ebb, the ebb" means muscle's coming
 hard; "a rook, a rook" means danger at the door right now. One word passes information safely;
 doubles demand immediate action. The doubled word always means trouble.
+
+## Convention 7 — Turf speaks first
+Before you work a location, that turf's fence already knows. Stepping in blind marks you as
+outside — and fools die young.

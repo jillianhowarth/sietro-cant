@@ -38,3 +38,4 @@
 - **wearing green** — under a patron's hand, protected by patronage — *extends: ivy/patronage* — "Don't ask him; he's wearing green for the Vicenza now." (Day 37)
 - **a crossed haul** — a rival operation taking the same cargo routes — *extends: docks & fishing* — "The Flats are getting a crossed haul from the Collective's people." (Day 38)
 - **a fresh paint** — a newcomer to the trade — *literally: paint freshly applied to Carnival masks* — *extends: Masks & Carnival* — "The fresh paint starts at high tide" (Day 39)
+- **to rake** — to steal — *literally: to gather salt with a rake* — *extends: Salt & labor* — "The east side's raking pans fast this month." (Day 40)
