@@ -39,3 +39,4 @@
 - **a crossed haul** — a rival operation taking the same cargo routes — *extends: docks & fishing* — "The Flats are getting a crossed haul from the Collective's people." (Day 38)
 - **a fresh paint** — a newcomer to the trade — *literally: paint freshly applied to Carnival masks* — *extends: Masks & Carnival* — "The fresh paint starts at high tide" (Day 39)
 - **to rake** — to steal — *literally: to gather salt with a rake* — *extends: Salt & labor* — "The east side's raking pans fast this month." (Day 40)
+- **a veil** — forged papers — *literally: cloth worn to mask identity* — *extends: Masks & Carnival* — "She had a veil ready for the dock." (Day 41)

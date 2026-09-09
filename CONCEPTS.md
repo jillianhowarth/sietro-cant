@@ -52,7 +52,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 ## Queue
 - [x] a newcomer to the trade
 - [x] to steal
-- [ ] forged papers
+- [x] forged papers
 - [ ] a cut or share
 - [ ] getting caught
 - [ ] the all-clear (and giving it)
