@@ -40,3 +40,4 @@
 - **a fresh paint** — a newcomer to the trade — *literally: paint freshly applied to Carnival masks* — *extends: Masks & Carnival* — "The fresh paint starts at high tide" (Day 39)
 - **to rake** — to steal — *literally: to gather salt with a rake* — *extends: Salt & labor* — "The east side's raking pans fast this month." (Day 40)
 - **a veil** — forged papers — *literally: cloth worn to mask identity* — *extends: Masks & Carnival* — "She had a veil ready for the dock." (Day 41)
+- **a sack** — a cut or share — *literally: a sack of salt* — *extends: Salt & labor* — "The sacks are fair this round." (Day 42)

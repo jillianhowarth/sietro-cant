@@ -53,7 +53,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a newcomer to the trade
 - [x] to steal
 - [x] forged papers
-- [ ] a cut or share
+- [x] a cut or share
 - [ ] getting caught
 - [ ] the all-clear (and giving it)
 - [ ] the Fratelli District (home turf)
