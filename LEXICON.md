@@ -42,3 +42,4 @@
 - **a veil** — forged papers — *literally: cloth worn to mask identity* — *extends: Masks & Carnival* — "She had a veil ready for the dock." (Day 41)
 - **a sack** — a cut or share — *literally: a sack of salt* — *extends: Salt & labor* — "The sacks are fair this round." (Day 42)
 - **the shallows** — getting caught — *literally: shallow water where boats run aground* — *extends: Water & the law* — "Heard he ended up in the shallows." (Day 43)
+- **the crows scatter** — the all-clear (danger has passed) — *literally: crows flying away* — *extends: Crows & gallows* — "The crows scatter at dawn, we move." (Day 44)
