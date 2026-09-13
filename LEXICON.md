@@ -43,3 +43,4 @@
 - **a sack** — a cut or share — *literally: a sack of salt* — *extends: Salt & labor* — "The sacks are fair this round." (Day 42)
 - **the shallows** — getting caught — *literally: shallow water where boats run aground* — *extends: Water & the law* — "Heard he ended up in the shallows." (Day 43)
 - **the crows scatter** — the all-clear (danger has passed) — *literally: crows flying away* — *extends: Crows & gallows* — "The crows scatter at dawn, we move." (Day 44)
+- **the shutters** — the Fratelli District (home turf) — *literally: window shutters against the wind* — *extends: The north wind* — "Best to keep to the shutters tonight, with how the north wind's blowing." (Day 45)

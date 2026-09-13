@@ -1,4 +1,4 @@
-Day: 44
+Day: 45
 Family counts:
 - Water & the law: 5
 - Salt & labor: 4
@@ -6,12 +6,12 @@ Family counts:
 - Masks & Carnival: 3
 - Ivy & gardens: 6
 - Crows & gallows: 2
-- The north wind: 0
+- The north wind: 1
 Recent terms (do not echo these nouns):
-- a crossed haul
 - a fresh paint
 - to rake
 - a veil
 - a sack
 - the shallows
 - the crows scatter
+- the shutters
