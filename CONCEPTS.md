@@ -57,7 +57,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] getting caught
 - [x] the all-clear (and giving it)
 - [x] the Fratelli District (home turf)
-- [ ] a sucker who trusts too easily
+- [x] a sucker who trusts too easily
 - [ ] to rob
 - [ ] counterfeit coin
 - [ ] profit
