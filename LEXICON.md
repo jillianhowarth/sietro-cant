@@ -45,3 +45,4 @@
 - **the crows scatter** — the all-clear (danger has passed) — *literally: crows flying away* — *extends: Crows & gallows* — "The crows scatter at dawn, we move." (Day 44)
 - **the shutters** — the Fratelli District (home turf) — *literally: window shutters against the wind* — *extends: The north wind* — "Best to keep to the shutters tonight, with how the north wind's blowing." (Day 45)
 - **a puddle** — a sucker who trusts too easily — *literally: a small pool of water* — *extends: Water & the law* — "She lasted a week, then broke—pure puddle from the start." (Day 46)
+- **shake the roost** — to rob — *literally: to disturb roosting birds* — *extends: Crows & gallows* — "You better steer clear when someone shakes the roost by the docks." (Day 47)
