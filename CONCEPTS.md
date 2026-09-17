@@ -60,7 +60,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a sucker who trusts too easily
 - [x] to rob
 - [x] counterfeit coin
-- [ ] profit
+- [x] profit
 - [ ] getting killed
 - [ ] a danger signal (a warning)
 - [ ] the black market at Piazza Del Scambiatore

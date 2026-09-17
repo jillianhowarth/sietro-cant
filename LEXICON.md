@@ -47,3 +47,4 @@
 - **a puddle** — a sucker who trusts too easily — *literally: a small pool of water* — *extends: Water & the law* — "She lasted a week, then broke—pure puddle from the start." (Day 46)
 - **shake the roost** — to rob — *literally: to disturb roosting birds* — *extends: Crows & gallows* — "You better steer clear when someone shakes the roost by the docks." (Day 47)
 - **the pan** — counterfeit coin — *literally: the day's salt from the pans* — *extends: Salt & labor* — "The pan's moving through the docks again." (Day 48)
+- **the clean** — profit — *literally: salt of high purity, free of impurities* — *extends: Salt & labor* — "This batch ran clean, worth every moment." (Day 49)
