@@ -48,3 +48,4 @@
 - **shake the roost** — to rob — *literally: to disturb roosting birds* — *extends: Crows & gallows* — "You better steer clear when someone shakes the roost by the docks." (Day 47)
 - **the pan** — counterfeit coin — *literally: the day's salt from the pans* — *extends: Salt & labor* — "The pan's moving through the docks again." (Day 48)
 - **the clean** — profit — *literally: salt of high purity, free of impurities* — *extends: Salt & labor* — "This batch ran clean, worth every moment." (Day 49)
+- **strain the rope** — getting killed — *literally: rope under tension from dock work* — *extends: Crows & gallows* — "The rope strained at daybreak." (Day 50)

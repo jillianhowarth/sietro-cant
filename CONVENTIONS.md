@@ -35,3 +35,7 @@ doubles demand immediate action. The doubled word always means trouble.
 ## Convention 7 — Turf speaks first
 Before you work a location, that turf's fence already knows. Stepping in blind marks you as
 outside — and fools die young.
+
+## Convention 8 — The rope keeps silence
+
+> When someone strains the rope or is eliminated, their name leaves the streets. You do not call them back with questions. The rope keeps silence, and the silence keeps you.
