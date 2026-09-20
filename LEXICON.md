@@ -50,3 +50,4 @@
 - **the clean** — profit — *literally: salt of high purity, free of impurities* — *extends: Salt & labor* — "This batch ran clean, worth every moment." (Day 49)
 - **strain the rope** — getting killed — *literally: rope under tension from dock work* — *extends: Crows & gallows* — "The rope strained at daybreak." (Day 50)
 - **the spray** — a danger signal; a warning that danger is closing in — *literally: the mist from breaking waves* — *extends: Water & the law* — "There's spray on the docks this morning." (Day 51)
+- **the tally** — the black market at Piazza Del Scambiatore — *literally: a count of harvested salt* — *extends: Salt & labor* — "The tally opens when the Watch passes by." (Day 52)
