@@ -53,3 +53,4 @@
 - **the tally** — the black market at Piazza Del Scambiatore — *literally: a count of harvested salt* — *extends: Salt & labor* — "The tally opens when the Watch passes by." (Day 52)
 - **a factor** — an outsider, someone foreign who has arrived — *literally: a merchant's agent* — *extends: The north wind* — "There's a factor settling in from the north." (Day 53)
 - **to wear paint** — to burgle a house — *literally: to wear cosmetics or makeup, as at Carnival* — *extends: Masks & Carnival* — "He's wearing paint at the warehouse tonight." (Day 54)
+- **a quill** — a hidden knife — *literally: a writing tool made from a feather* — *extends: Crows & gallows* — "She sharpened her quill that morning." (Day 55)
