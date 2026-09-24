@@ -54,3 +54,4 @@
 - **a factor** — an outsider, someone foreign who has arrived — *literally: a merchant's agent* — *extends: The north wind* — "There's a factor settling in from the north." (Day 53)
 - **to wear paint** — to burgle a house — *literally: to wear cosmetics or makeup, as at Carnival* — *extends: Masks & Carnival* — "He's wearing paint at the warehouse tonight." (Day 54)
 - **a quill** — a hidden knife — *literally: a writing tool made from a feather* — *extends: Crows & gallows* — "She sharpened her quill that morning." (Day 55)
+- **the paint** — protection money, payment for safety or silence — *literally: cosmetic paint, makeup* — *extends: Masks & Carnival* — "That corner gang needs a fresh pot of paint before the season starts." (Day 56)
