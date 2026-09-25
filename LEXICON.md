@@ -55,3 +55,4 @@
 - **to wear paint** — to burgle a house — *literally: to wear cosmetics or makeup, as at Carnival* — *extends: Masks & Carnival* — "He's wearing paint at the warehouse tonight." (Day 54)
 - **a quill** — a hidden knife — *literally: a writing tool made from a feather* — *extends: Crows & gallows* — "She sharpened her quill that morning." (Day 55)
 - **the paint** — protection money, payment for safety or silence — *literally: cosmetic paint, makeup* — *extends: Masks & Carnival* — "That corner gang needs a fresh pot of paint before the season starts." (Day 56)
+- **a toll** — a dead body — *literally: the sound of a bell, especially at death* — *extends: Crows & gallows* — "There's a toll in the Fratelli water this morning." (Day 57)
