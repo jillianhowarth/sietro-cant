@@ -57,3 +57,4 @@
 - **the paint** — protection money, payment for safety or silence — *literally: cosmetic paint, makeup* — *extends: Masks & Carnival* — "That corner gang needs a fresh pot of paint before the season starts." (Day 56)
 - **a toll** — a dead body — *literally: the sound of a bell, especially at death* — *extends: Crows & gallows* — "There's a toll in the Fratelli water this morning." (Day 57)
 - **the mask-maker** — a meeting — *literally: the craftsperson who makes masks* — *extends: Masks & Carnival* — "I've got business at the mask-maker's." (Day 58)
+- **a chill** — a Collective front taking root — *literally: the cold brought by the north wind* — *extends: The north wind* — "There's been a chill settled on the east side." (Day 59)
