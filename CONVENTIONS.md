@@ -39,3 +39,7 @@ outside — and fools die young.
 ## Convention 8 — The rope keeps silence
 
 > When someone strains the rope or is eliminated, their name leaves the streets. You do not call them back with questions. The rope keeps silence, and the silence keeps you.
+
+## Convention 9 — The cant deepens with age
+
+A term spoken yesterday is untested. A term that's lived through seasons is solid. The cant's strength is that everyone speaks the same language. New coins are for the careless. The deep cant—the words that have endured—keeps you safe.

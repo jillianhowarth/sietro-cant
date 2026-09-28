@@ -71,7 +71,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a body in the canal
 - [x] a meeting
 - [x] the Withered Bloom (Collective front)
-- [ ] to pick a pocket
+- [x] to pick a pocket
 - [ ] a lockpick set
 - [ ] a payoff
 - [ ] a betrayal
