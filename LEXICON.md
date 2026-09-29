@@ -59,3 +59,4 @@
 - **the mask-maker** — a meeting — *literally: the craftsperson who makes masks* — *extends: Masks & Carnival* — "I've got business at the mask-maker's." (Day 58)
 - **a chill** — a Collective front taking root — *literally: the cold brought by the north wind* — *extends: The north wind* — "There's been a chill settled on the east side." (Day 59)
 - **to lift** — to pick a pocket / to steal someone's valuables — *literally: to carry or raise salt sacks* — *extends: Salt & labor* — "She was lifting all morning at the Flats." (Day 60)
+- **a cutting** — a lockpick set — *literally: a section of plant stem used for propagation* — *extends: Ivy & gardens* — "The hothouse keeper said the cutting needed three days." (Day 61)
