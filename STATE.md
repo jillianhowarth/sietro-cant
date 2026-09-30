@@ -1,4 +1,4 @@
-Day: 61
+Day: 62
 Family counts:
 - Water & the law: 7
 - Salt & labor: 8
@@ -6,12 +6,12 @@ Family counts:
 - Masks & Carnival: 6
 - Ivy & gardens: 7
 - Crows & gallows: 6
-- The north wind: 3
+- The north wind: 4
 Recent terms (do not echo these nouns):
-- the tally
 - the paint
 - a toll
 - the mask-maker
 - a chill
 - to lift
 - a cutting
+- the wind

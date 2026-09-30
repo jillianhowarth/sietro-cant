@@ -73,7 +73,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] the Withered Bloom (Collective front)
 - [x] to pick a pocket
 - [x] a lockpick set
-- [ ] a payoff
+- [x] a payoff
 - [ ] a betrayal
 - [ ] a deal
 - [ ] the House of Vornoth (no-questions hospital)
