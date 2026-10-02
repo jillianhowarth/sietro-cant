@@ -62,3 +62,4 @@
 - **a cutting** — a lockpick set — *literally: a section of plant stem used for propagation* — *extends: Ivy & gardens* — "The hothouse keeper said the cutting needed three days." (Day 61)
 - **the wind** — a payoff from the Collective — *literally: a breeze or current of air* — *extends: The north wind* — "The harbor master felt the wind and opened his wharves to the northern ships." (Day 62)
 - **a raven** — a betrayal — *literally: a large black bird* — *extends: Crows & gallows* — "A raven has been seen at the warehouse since Tuesday." (Day 63)
+- **the rake** — a deal; an agreement where each party takes their share — *literally: the tool for gathering salt from the pans* — *extends: Salt & labor* — "The rake's been good since spring." (Day 64)
