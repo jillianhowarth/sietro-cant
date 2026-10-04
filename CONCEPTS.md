@@ -77,7 +77,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a betrayal
 - [x] a deal
 - [x] the House of Vornoth (no-questions hospital)
-- [ ] to cut a purse
+- [x] to cut a purse
 - [ ] a safehouse or hideout
 - [ ] a debt
 - [ ] prison
