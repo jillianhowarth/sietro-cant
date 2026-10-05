@@ -65,3 +65,4 @@
 - **the rake** — a deal; an agreement where each party takes their share — *literally: the tool for gathering salt from the pans* — *extends: Salt & labor* — "The rake's been good since spring." (Day 64)
 - **a curtain** — the House of Vornoth; a place to hide or disappear — *literally: a cloth hanging for privacy or theater decoration* — *extends: Masks & Carnival* — "She's at the curtain, probably through next week." (Day 65)
 - **to harvest** — to pick pockets, to steal from someone — *literally: to gather salt from the pans* — *extends: Salt & labor* — "The morning crowd yielded a fine harvest." (Day 66)
+- **an eddy** — a safehouse or hideout — *literally: a circular water current* — *extends: Water & the law* — "The eastern eddy's been our quiet spot." (Day 67)
