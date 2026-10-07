@@ -67,3 +67,4 @@
 - **to harvest** — to pick pockets, to steal from someone — *literally: to gather salt from the pans* — *extends: Salt & labor* — "The morning crowd yielded a fine harvest." (Day 66)
 - **an eddy** — a safehouse or hideout — *literally: a circular water current* — *extends: Water & the law* — "The eastern eddy's been our quiet spot." (Day 67)
 - **a drag** — a debt — *literally: the resistance of water against a vessel* — *extends: Water & the law* — "A drag like that takes years to settle." (Day 68)
+- **the bell** — prison — *literally: a bell, particularly a large one in a tower* — *extends: Crows & gallows* — "She's in the bell till this blows over." (Day 69)

@@ -80,7 +80,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] to cut a purse
 - [x] a safehouse or hideout
 - [x] a debt
-- [ ] prison
+- [x] prison
 - [ ] a handshake deal
 - [ ] the Noose and Anchor (an inn)
 - [ ] to case a target
