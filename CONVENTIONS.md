@@ -43,3 +43,7 @@ outside — and fools die young.
 ## Convention 9 — The cant deepens with age
 
 A term spoken yesterday is untested. A term that's lived through seasons is solid. The cant's strength is that everyone speaks the same language. New coins are for the careless. The deep cant—the words that have endured—keeps you safe.
+
+## Convention 10 — The cant flows only in the crew
+
+You speak cant only to those you know are in the trade. Strangers and tourists hear plain talk. A merchant, a guest, a visitor from inland—they hear you use regular words or they hear nothing. Speaking cant outside the crew marks you as reckless or a fool, and the Watch has ears in the piazzas.
