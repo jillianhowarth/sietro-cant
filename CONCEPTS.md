@@ -86,7 +86,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] to case a target
 - [x] a stash
 - [x] interest owed
-- [ ] the noose
+- [x] the noose
 - [ ] trust
 - [ ] the salt flats as a place to vanish
 - [ ] to break in

@@ -73,3 +73,4 @@
 - **take a fitting** — to case a target, observe someone closely to study their habits — *literally: to be measured for masks at a Carnival mask-maker's shop* — *extends: Masks & Carnival* — "She took a fitting down at the mask shop in Fratelli." (Day 72)
 - **a nest** — a stash of hidden goods — *literally: a bird's nest* — *extends: Crows & gallows* — "The warehouse nest held fine through the spring rains." (Day 73)
 - **the curing** — interest owed — *literally: the process of treating salt for preservation* — *extends: Salt & labor* — "How long is the curing on that salt lot?" (Day 74)
+- **the knot** — the noose; execution — *literally: a fastening knot in rope* — *extends: Crows & gallows* — "Draw the knot tight." (Day 75)
