@@ -88,7 +88,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] interest owed
 - [x] the noose
 - [x] trust
-- [ ] the salt flats as a place to vanish
+- [x] the salt flats as a place to vanish
 - [ ] to break in
 - [ ] the take (the loot)
 - [ ] tribute to the family

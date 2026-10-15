@@ -75,3 +75,4 @@
 - **the curing** — interest owed — *literally: the process of treating salt for preservation* — *extends: Salt & labor* — "How long is the curing on that salt lot?" (Day 74)
 - **the knot** — the noose; execution — *literally: a fastening knot in rope* — *extends: Crows & gallows* — "Draw the knot tight." (Day 75)
 - **roots** — trust; a deep, established relationship — *literally: the underground part of a plant* — *extends: Ivy & gardens* — "These roots don't shake easily." (Day 76)
+- **the lock** — disappearing into the Flats, being trapped in labor — *literally: a canal lock that controls water flow* — *extends: Water & the law* — "Three workers went to the Flats this summer; they're in the lock till autumn." (Day 77)
