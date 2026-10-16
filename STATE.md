@@ -1,4 +1,4 @@
-Day: 77
+Day: 78
 Family counts:
 - Water & the law: 10
 - Salt & labor: 11
@@ -6,12 +6,12 @@ Family counts:
 - Masks & Carnival: 9
 - Ivy & gardens: 8
 - Crows & gallows: 10
-- The north wind: 5
+- The north wind: 6
 Recent terms (do not echo these nouns):
-- a thaw
 - a motley
 - a fitting
 - the curing
 - the knot
 - roots
 - the lock
+- in
