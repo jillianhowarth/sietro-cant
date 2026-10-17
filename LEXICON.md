@@ -77,3 +77,4 @@
 - **roots** — trust; a deep, established relationship — *literally: the underground part of a plant* — *extends: Ivy & gardens* — "These roots don't shake easily." (Day 76)
 - **the lock** — disappearing into the Flats, being trapped in labor — *literally: a canal lock that controls water flow* — *extends: Water & the law* — "Three workers went to the Flats this summer; they're in the lock till autumn." (Day 77)
 - **creeping in** — the Collective breaking into territory, establishing control — *literally: (of wind or cold) entering through openings* — *extends: The north wind* — "The eastern docks? The north wind's creeping in." (Day 78)
+- **a gust** — the take (the loot) — *literally: a sudden strong wind* — *extends: The north wind* — "A gust from the north came through yesterday." (Day 79)
