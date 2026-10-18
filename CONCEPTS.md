@@ -91,7 +91,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] the salt flats as a place to vanish
 - [x] to break in
 - [x] the take (the loot)
-- [ ] tribute to the family
+- [x] tribute to the family
 - [ ] a vendetta
 - [ ] a secret
 - [ ] the sewers and back canals

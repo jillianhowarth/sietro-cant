@@ -47,3 +47,7 @@ A term spoken yesterday is untested. A term that's lived through seasons is soli
 ## Convention 10 — The cant flows only in the crew
 
 You speak cant only to those you know are in the trade. Strangers and tourists hear plain talk. A merchant, a guest, a visitor from inland—they hear you use regular words or they hear nothing. Speaking cant outside the crew marks you as reckless or a fool, and the Watch has ears in the piazzas.
+
+## Convention 11 — The family's price is spoken in silence
+
+When the crew sets a cost—for protection, for passage, for secrecy—the amount is known to all. It is never shouted, never named, but always understood. That certainty is safer than haggling.

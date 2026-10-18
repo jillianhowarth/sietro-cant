@@ -78,3 +78,4 @@
 - **the lock** — disappearing into the Flats, being trapped in labor — *literally: a canal lock that controls water flow* — *extends: Water & the law* — "Three workers went to the Flats this summer; they're in the lock till autumn." (Day 77)
 - **creeping in** — the Collective breaking into territory, establishing control — *literally: (of wind or cold) entering through openings* — *extends: The north wind* — "The eastern docks? The north wind's creeping in." (Day 78)
 - **a gust** — the take (the loot) — *literally: a sudden strong wind* — *extends: The north wind* — "A gust from the north came through yesterday." (Day 79)
+- **the toll** — tribute to the Collective — *literally: a fee for passage or duty* — *extends: The north wind* — "The warehouses paid the north wind's toll this year." (Day 80)
