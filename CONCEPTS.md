@@ -92,7 +92,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] to break in
 - [x] the take (the loot)
 - [x] tribute to the family
-- [ ] a vendetta
+- [x] a vendetta
 - [ ] a secret
 - [ ] the sewers and back canals
 - [ ] to pick a lock

@@ -79,3 +79,4 @@
 - **creeping in** — the Collective breaking into territory, establishing control — *literally: (of wind or cold) entering through openings* — *extends: The north wind* — "The eastern docks? The north wind's creeping in." (Day 78)
 - **a gust** — the take (the loot) — *literally: a sudden strong wind* — *extends: The north wind* — "A gust from the north came through yesterday." (Day 79)
 - **the toll** — tribute to the Collective — *literally: a fee for passage or duty* — *extends: The north wind* — "The warehouses paid the north wind's toll this year." (Day 80)
+- **the briar** — a long-running vendetta, or a person with whom one feud — *literally: a wild thorny shrub* — *extends: Ivy & gardens* — "That briar has been spreading since the old man died." (Day 81)
