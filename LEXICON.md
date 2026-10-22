@@ -82,3 +82,4 @@
 - **the briar** — a long-running vendetta, or a person with whom one feud — *literally: a wild thorny shrub* — *extends: Ivy & gardens* — "That briar has been spreading since the old man died." (Day 81)
 - **a draft** — a secret — *literally: a current of cold air* — *extends: The north wind* — "There's a draft coming through the Fratelli docks." (Day 82)
 - **backwater** — the sewers and back canals — *literally: water that eddies away from the main current* — *extends: Water & the law* — "Use the backwater when the fog thickens." (Day 83)
+- **opening the sluice** — picking a lock; gaining unauthorized access — *literally: opening a canal lock gate to manage water flow* — *extends: Water & the law* — "Open the sluice when you can—the dikes need testing." (Day 84)
