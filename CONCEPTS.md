@@ -96,7 +96,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a secret
 - [x] the sewers and back canals
 - [x] to pick a lock
-- [ ] a secret message
+- [x] a secret message
 - [ ] hush money
 - [ ] a bounty on your head
 - [ ] an oath of silence

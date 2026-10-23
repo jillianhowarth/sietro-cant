@@ -83,3 +83,4 @@
 - **a draft** — a secret — *literally: a current of cold air* — *extends: The north wind* — "There's a draft coming through the Fratelli docks." (Day 82)
 - **backwater** — the sewers and back canals — *literally: water that eddies away from the main current* — *extends: Water & the law* — "Use the backwater when the fog thickens." (Day 83)
 - **opening the sluice** — picking a lock; gaining unauthorized access — *literally: opening a canal lock gate to manage water flow* — *extends: Water & the law* — "Open the sluice when you can—the dikes need testing." (Day 84)
+- **a feather** — a secret message — *literally: a plume worn in Carnival masks or costumes* — *extends: Masks & Carnival* — "That feather came loose from someone's costume at the parade." (Day 85)
