@@ -86,3 +86,4 @@
 - **a feather** — a secret message — *literally: a plume worn in Carnival masks or costumes* — *extends: Masks & Carnival* — "That feather came loose from someone's costume at the parade." (Day 85)
 - **a pan** — hush money — *literally: a shallow vessel used in salt evaporation* — *extends: Salt & labor* — "The overseer is waiting on a pan before the inspection." (Day 86)
 - **a weed** — a bounty on your head — *literally: an unwanted plant in a garden* — *extends: Ivy & gardens* — "There's a weed in the market these days." (Day 87)
+- **a frost** — an oath of silence, a binding vow of secrecy — *literally: a hard freeze* — *extends: The north wind* — "Once you take a frost, there's no going back." (Day 88)
