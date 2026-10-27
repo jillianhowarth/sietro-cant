@@ -100,7 +100,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] hush money
 - [x] a bounty on your head
 - [x] an oath of silence
-- [ ] a smugglers' tunnel
+- [x] a smugglers' tunnel
 - [ ] to crack a safe
 - [ ] a password or countersign
 - [ ] a purse of coin
