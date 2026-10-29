@@ -89,3 +89,4 @@
 - **a frost** — an oath of silence, a binding vow of secrecy — *literally: a hard freeze* — *extends: The north wind* — "Once you take a frost, there's no going back." (Day 88)
 - **a hothouse** — a smugglers' tunnel — *literally: a heated glass structure for growing tropical plants* — *extends: Ivy & gardens* — "Send it through the hothouse before dawn." (Day 89)
 - **barring the shutters** — cracking a safe — *literally: securing shutters against wind* — *extends: The north wind* — "Took him three minutes to bar the shutters, but it came open after." (Day 90)
+- **a step** — a password or countersign — *literally: a dance movement in Carnival* — *extends: Masks & Carnival* — "The new step's been going around the crowds." (Day 91)
