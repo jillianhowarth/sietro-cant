@@ -94,3 +94,4 @@
 - **a hood** — being marked for death — *literally: a fabric covering for the head* — *extends: Crows & gallows* — "She wears a hood before the fair." (Day 93)
 - **a crow** — a reliable contact — *literally: a common black bird* — *extends: Crows & gallows* — "The crow at the eastern posts keeps steady hours." (Day 94)
 - **a candle** — the Vicenza Family — *literally: a burning source of light made from wax* — *extends: Crows & gallows* — "The candle in the western Fratelli burns steady." (Day 95)
+- **tie a vine** — to bribe someone — *literally: to secure climbing vines with knots or supports* — *extends: Ivy & gardens* — "We need to tie a vine with the eastern gentry." (Day 96)
