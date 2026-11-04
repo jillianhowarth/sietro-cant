@@ -108,7 +108,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a reliable contact
 - [x] the Vicenza Family
 - [x] to bribe
-- [ ] a marked coin
+- [x] a marked coin
 - [ ] a gambling debt
 - [ ] being burned (exposed)
 - [ ] a tip-off
