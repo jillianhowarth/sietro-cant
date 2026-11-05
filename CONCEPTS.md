@@ -109,7 +109,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] the Vicenza Family
 - [x] to bribe
 - [x] a marked coin
-- [ ] a gambling debt
+- [x] a gambling debt
 - [ ] being burned (exposed)
 - [ ] a tip-off
 - [ ] the Renoldi Family (fading)
