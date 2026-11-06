@@ -110,7 +110,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] to bribe
 - [x] a marked coin
 - [x] a gambling debt
-- [ ] being burned (exposed)
+- [x] being burned (exposed)
 - [ ] a tip-off
 - [ ] the Renoldi Family (fading)
 - [ ] to threaten

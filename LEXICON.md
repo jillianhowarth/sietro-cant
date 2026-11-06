@@ -97,3 +97,4 @@
 - **tie a vine** — to bribe someone — *literally: to secure climbing vines with knots or supports* — *extends: Ivy & gardens* — "We need to tie a vine with the eastern gentry." (Day 96)
 - **a token** — proof of identity or belonging to a crew — *literally: a small object of value or symbolic pledge* — *extends: Masks & Carnival* — "He turned up with a token from the maskmaker." (Day 97)
 - **ballast** — a gambling debt — *literally: weight that stabilizes a ship* — *extends: Water & the law* — "He's carrying ballast from the tables." (Day 98)
+- **hitting the shallows** — being exposed or burned — *literally: running aground in shallow water* — *extends: Water & the law* — "Once you hit the shallows in these waters, you never come back up." (Day 99)
