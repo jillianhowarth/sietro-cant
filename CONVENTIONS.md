@@ -51,3 +51,7 @@ You speak cant only to those you know are in the trade. Strangers and tourists h
 ## Convention 11 — The family's price is spoken in silence
 
 When the crew sets a cost—for protection, for passage, for secrecy—the amount is known to all. It is never shouted, never named, but always understood. That certainty is safer than haggling.
+
+## Convention 12 — A bell once spoken
+
+A warning rises to a shout when it reaches the third telling. Information moves clean—once, to one ear. After that, the crew must judge what to do with it. What leaves the circle becomes the Watch's business.
