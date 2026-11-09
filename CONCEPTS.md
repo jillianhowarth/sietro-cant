@@ -113,7 +113,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] being burned (exposed)
 - [x] a tip-off
 - [x] the Renoldi Family (fading)
-- [ ] to threaten
+- [x] to threaten
 - [ ] a smuggled crate
 - [ ] a setup or trap
 - [ ] word on the street
