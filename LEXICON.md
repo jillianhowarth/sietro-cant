@@ -101,3 +101,4 @@
 - **a bell** — a tip-off, secret information passed to warn someone — *literally: a ringing bell* — *extends: Crows & gallows* — "A bell came from the Vornoth last night." (Day 100)
 - **sweat** — a crew losing its workforce — *literally: the perspiration of salt workers* — *extends: Salt & labor* — "The sweat's running thin these days." (Day 101)
 - **rattle** — to threaten or make a show of menace — *literally: to make a clattering sound* — *extends: The north wind* — "The north wind's rattling the eastern fences." (Day 102)
+- **domino** — a smuggled crate — *literally: a simple black Carnival mask* — *extends: Masks & Carnival* — "A domino came through last night, nothing marked." (Day 103)
