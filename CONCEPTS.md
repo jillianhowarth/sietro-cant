@@ -115,7 +115,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] the Renoldi Family (fading)
 - [x] to threaten
 - [x] a smuggled crate
-- [ ] a setup or trap
+- [x] a setup or trap
 - [ ] word on the street
 - [ ] Vicenza turf (western Fratelli)
 - [ ] to extort
