@@ -116,7 +116,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] to threaten
 - [x] a smuggled crate
 - [x] a setup or trap
-- [ ] word on the street
+- [x] word on the street
 - [ ] Vicenza turf (western Fratelli)
 - [ ] to extort
 - [ ] a false-bottomed cart
