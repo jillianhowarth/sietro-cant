@@ -104,3 +104,4 @@
 - **domino** — a smuggled crate — *literally: a simple black Carnival mask* — *extends: Masks & Carnival* — "A domino came through last night, nothing marked." (Day 103)
 - **the feather** — a setup or trap — *literally: a feather used to decorate a Carnival mask* — *extends: Masks & Carnival* — "The mask's got a feather now." (Day 104)
 - **a bloom** — street word, rumor circulating in the underworld — *literally: a flower or blossom* — *extends: Ivy & gardens* — "A fresh bloom about the eastern fence is moving through the Fratelli." (Day 105)
+- **a pan** — Vicenza's western territory — *literally: a salt pan where crystals form* — *extends: Salt & labor* — "A pan's been set deep in the west." (Day 106)
