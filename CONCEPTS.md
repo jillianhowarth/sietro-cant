@@ -119,7 +119,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] word on the street
 - [x] Vicenza turf (western Fratelli)
 - [x] to extort
-- [ ] a false-bottomed cart
+- [x] a false-bottomed cart
 - [ ] a witness
 - [ ] a favor owed
 - [ ] the eastern Fratelli under the north wind
