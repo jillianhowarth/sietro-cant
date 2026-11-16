@@ -107,3 +107,4 @@
 - **a pan** — Vicenza's western territory — *literally: a salt pan where crystals form* — *extends: Salt & labor* — "A pan's been set deep in the west." (Day 106)
 - **harvest** — to extort — *literally: to gather salt from the pans* — *extends: Salt & labor* — "They're harvesting the western sections now." (Day 107)
 - **a shutter** — a hidden compartment for moving goods; a Collective smuggling operation — *literally: a window covering found on mainland buildings* — *extends: The north wind* — "Mind the broken shutter by the northern slip." (Day 108)
+- **a fisher** — a witness — *literally: someone who fishes in Sietro's canals* — *extends: Water & the law* — "The fisher brought up something strange." (Day 109)
