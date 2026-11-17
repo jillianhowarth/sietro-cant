@@ -55,3 +55,7 @@ When the crew sets a cost—for protection, for passage, for secrecy—the amoun
 ## Convention 12 — A bell once spoken
 
 A warning rises to a shout when it reaches the third telling. Information moves clean—once, to one ear. After that, the crew must judge what to do with it. What leaves the circle becomes the Watch's business.
+
+## Convention 13 — Favors flow like water
+
+A debt owed is never forgotten, and it moves through the web like tide through the sluices. You settle a graft—a favor owed—when the moment calls, not when asked. Timing is the difference between honor and weakness. Those who collect debts wait with patience; those who owe them know the weight.
