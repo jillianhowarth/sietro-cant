@@ -109,3 +109,4 @@
 - **a shutter** — a hidden compartment for moving goods; a Collective smuggling operation — *literally: a window covering found on mainland buildings* — *extends: The north wind* — "Mind the broken shutter by the northern slip." (Day 108)
 - **a fisher** — a witness — *literally: someone who fishes in Sietro's canals* — *extends: Water & the law* — "The fisher brought up something strange." (Day 109)
 - **the graft** — a favor owed, a debt of obligation in the patronage web — *literally: a plant shoot grafted to another tree* — *extends: Ivy & gardens* — "The graft on the south wall needs anchoring this spring." (Day 110)
+- **the freeze** — the Collective establishes control of an area — *literally: a period of freezing weather* — *extends: The north wind* — "The freeze holds the east now." (Day 111)

@@ -1,4 +1,4 @@
-Day: 110
+Day: 111
 Family counts:
 - Water & the law: 15
 - Salt & labor: 16
@@ -6,12 +6,12 @@ Family counts:
 - Masks & Carnival: 14
 - Ivy & gardens: 14
 - Crows & gallows: 14
-- The north wind: 13
+- The north wind: 14
 Recent terms (do not echo these nouns):
-- the feather
 - a bloom
 - a pan
 - harvest
 - a shutter
 - fisher
 - the graft
+- the freeze

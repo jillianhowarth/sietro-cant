@@ -122,7 +122,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a false-bottomed cart
 - [x] a witness
 - [x] a favor owed
-- [ ] the eastern Fratelli under the north wind
+- [x] the eastern Fratelli under the north wind
 - [ ] to run a protection racket
 - [ ] a signal lantern
 - [ ] a public flogging
