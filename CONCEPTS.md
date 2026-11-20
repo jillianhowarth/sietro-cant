@@ -124,7 +124,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a favor owed
 - [x] the eastern Fratelli under the north wind
 - [x] to run a protection racket
-- [ ] a signal lantern
+- [x] a signal lantern
 - [ ] a public flogging
 - [ ] a debt of loyalty
 - [ ] the Rogati in a family's pocket

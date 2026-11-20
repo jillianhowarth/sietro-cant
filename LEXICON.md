@@ -111,3 +111,4 @@
 - **the graft** — a favor owed, a debt of obligation in the patronage web — *literally: a plant shoot grafted to another tree* — *extends: Ivy & gardens* — "The graft on the south wall needs anchoring this spring." (Day 110)
 - **the freeze** — the Collective establishes control of an area — *literally: a period of freezing weather* — *extends: The north wind* — "The freeze holds the east now." (Day 111)
 - **tolling** — running a protection racket — *literally: ringing a bell for the dead* — *extends: Crows & gallows* — "Who's tolling the Withered Bloom?" (Day 112)
+- **a lantern** — a signal that work is ready — *literally: a light fixture for illumination, especially in Carnival processions* — *extends: Masks & Carnival* — "She hung a lantern above the market stall." (Day 113)
