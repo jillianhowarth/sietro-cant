@@ -112,3 +112,4 @@
 - **the freeze** — the Collective establishes control of an area — *literally: a period of freezing weather* — *extends: The north wind* — "The freeze holds the east now." (Day 111)
 - **tolling** — running a protection racket — *literally: ringing a bell for the dead* — *extends: Crows & gallows* — "Who's tolling the Withered Bloom?" (Day 112)
 - **a lantern** — a signal that work is ready — *literally: a light fixture for illumination, especially in Carnival processions* — *extends: Masks & Carnival* — "She hung a lantern above the market stall." (Day 113)
+- **bells** — a public flogging — *literally: the bells of Sietro that mark time and occasions* — *extends: Crows & gallows* — "Clear morning, magistrate business in the square, the bells rang at noon—the same routine every few weeks." (Day 114)
