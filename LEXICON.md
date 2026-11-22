@@ -109,6 +109,7 @@
 - **a shutter** — a hidden compartment for moving goods; a Collective smuggling operation — *literally: a window covering found on mainland buildings* — *extends: The north wind* — "Mind the broken shutter by the northern slip." (Day 108)
 - **a fisher** — a witness — *literally: someone who fishes in Sietro's canals* — *extends: Water & the law* — "The fisher brought up something strange." (Day 109)
 - **the graft** — a favor owed, a debt of obligation in the patronage web — *literally: a plant shoot grafted to another tree* — *extends: Ivy & gardens* — "The graft on the south wall needs anchoring this spring." (Day 110)
+- **a tangle** — a debt of loyalty — *literally: a mass of intertwined or twisted vines* — *extends: Ivy & gardens* — "He's taken a tangle with the western crew." (Day 115)
 - **the freeze** — the Collective establishes control of an area — *literally: a period of freezing weather* — *extends: The north wind* — "The freeze holds the east now." (Day 111)
 - **tolling** — running a protection racket — *literally: ringing a bell for the dead* — *extends: Crows & gallows* — "Who's tolling the Withered Bloom?" (Day 112)
 - **a lantern** — a signal that work is ready — *literally: a light fixture for illumination, especially in Carnival processions* — *extends: Masks & Carnival* — "She hung a lantern above the market stall." (Day 113)
