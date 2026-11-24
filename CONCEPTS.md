@@ -128,7 +128,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a public flogging
 - [x] a debt of loyalty
 - [x] the Rogati in a family's pocket
-- [ ] to launder money
+- [x] to launder money
 - [ ] a ledger of debts
 - [ ] the stocks
 - [ ] a bribed member of the Watch

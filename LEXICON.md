@@ -115,3 +115,4 @@
 - **a lantern** — a signal that work is ready — *literally: a light fixture for illumination, especially in Carnival processions* — *extends: Masks & Carnival* — "She hung a lantern above the market stall." (Day 113)
 - **bells** — a public flogging — *literally: the bells of Sietro that mark time and occasions* — *extends: Crows & gallows* — "Clear morning, magistrate business in the square, the bells rang at noon—the same routine every few weeks." (Day 114)
 - **a prop** — a Rogati member controlled by and serving a crime family's interests — *literally: a support structure for climbing plants* — *extends: Ivy & gardens* — "He's propped in the wrong garden." (Day 116)
+- **to cure** — to launder money through legitimate operations — *literally: to cure salt for preservation* — *extends: Salt & labor* — "We're curing the winter supply up at the Flats." (Day 117)
