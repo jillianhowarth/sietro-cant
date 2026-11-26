@@ -130,7 +130,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] the Rogati in a family's pocket
 - [x] to launder money
 - [x] a ledger of debts
-- [ ] the stocks
+- [x] the stocks
 - [ ] a bribed member of the Watch
 - [ ] to skim a cut
 - [ ] a hidden compartment

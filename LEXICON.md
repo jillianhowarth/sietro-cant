@@ -117,3 +117,4 @@
 - **a prop** — a Rogati member controlled by and serving a crime family's interests — *literally: a support structure for climbing plants* — *extends: Ivy & gardens* — "He's propped in the wrong garden." (Day 116)
 - **to cure** — to launder money through legitimate operations — *literally: to cure salt for preservation* — *extends: Salt & labor* — "We're curing the winter supply up at the Flats." (Day 117)
 - **the weight** — a ledger of debts — *literally: the recorded weight of salt in the Flats* — *extends: Salt & labor* — "The weight is holding steady this season." (Day 118)
+- **the roost** — the stocks — *literally: where a bird rests* — *extends: Crows & gallows* — "They've got him roosting for the week." (Day 119)
