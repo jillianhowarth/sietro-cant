@@ -59,3 +59,7 @@ A warning rises to a shout when it reaches the third telling. Information moves 
 ## Convention 13 — Favors flow like water
 
 A debt owed is never forgotten, and it moves through the web like tide through the sluices. You settle a graft—a favor owed—when the moment calls, not when asked. Timing is the difference between honor and weakness. Those who collect debts wait with patience; those who owe them know the weight.
+
+## Convention 14 — The keeper hears what the keeper hears
+
+A compromised Watch member knows what buys silence and what draws attention. They've tasted enough of both sides to smell a trap. Never speak cant to a keeper unless you're sure the keeper's already bought. A word that proves you, once spoken, is a word the Watch will hunt.
