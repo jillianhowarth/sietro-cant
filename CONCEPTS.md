@@ -132,7 +132,7 @@ Format each line EXACTLY as "- [ ] concept" so a single grep can find the next o
 - [x] a ledger of debts
 - [x] the stocks
 - [x] a bribed member of the Watch
-- [ ] to skim a cut
+- [x] to skim a cut
 - [ ] a hidden compartment
 - [ ] the Duke's mercenaries (the Bronze Guardians)
 - [ ] to run a con

@@ -119,3 +119,4 @@
 - **the weight** — a ledger of debts — *literally: the recorded weight of salt in the Flats* — *extends: Salt & labor* — "The weight is holding steady this season." (Day 118)
 - **the roost** — the stocks — *literally: where a bird rests* — *extends: Crows & gallows* — "They've got him roosting for the week." (Day 119)
 - **a keeper** — a bribed member of the Watch — *literally: a person who tends channels, locks, or gates* — *extends: Water & the law* — "The canal keeper's been loose with the gates lately." (Day 120)
+- **to work the rake** — to skim a cut from profits — *literally: to use a rake to gather and settle salt in production pans* — *extends: Salt & labor* — "He's been working the rake on the morning shift." (Day 121)
